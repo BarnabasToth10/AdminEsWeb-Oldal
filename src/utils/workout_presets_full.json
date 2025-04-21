@@ -1,1404 +1,2136 @@
 {
- "muscle_beginner_none": [
-  {
-    "exercise_number": 1,
-    "note": "Push Up",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 1 }, { "set_number": 2, "reps": 12, "id": 2 }, { "set_number": 3, "reps": 12, "id": 3 } ],
-    "comment": "Mellkas, tricepsz",
-    "targetMuscleGroup": [ "chest", "triceps","arms" ]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Incline Push Up",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 4 }, { "set_number": 2, "reps": 12, "id": 5 }, { "set_number": 3, "reps": 12, "id": 6 } ],
-    "comment": "Felső mellkas",
-    "targetMuscleGroup": [ "chest", "shoulders" ]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Tricep Dips (padra támaszkodva)",
-    "sets": [ { "set_number": 1, "reps": 10, "id": 7 }, { "set_number": 2, "reps": 10, "id": 8 }, { "set_number": 3, "reps": 10, "id": 9 } ],
-    "comment": "Tricepsz",
-    "targetMuscleGroup": [ "arms" ]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Guggolás",
-    "sets": [ { "set_number": 1, "reps": 15, "id": 10 }, { "set_number": 2, "reps": 15, "id": 11 }, { "set_number": 3, "reps": 15, "id": 12 } ],
-    "comment": "Láberő",
-    "targetMuscleGroup": [ "legs", "glutes" ]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Kitörés (súly nélkül)",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 13 }, { "set_number": 2, "reps": 12, "id": 14 }, { "set_number": 3, "reps": 12, "id": 15 } ],
-    "comment": "Láb és fenék",
-    "targetMuscleGroup": [ "legs", "glutes" ]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Vádliemelés állva",
-    "sets": [ { "set_number": 1, "reps": 20, "id": 16 }, { "set_number": 2, "reps": 20, "id": 17 }, { "set_number": 3, "reps": 20, "id": 18 } ],
-    "comment": "Vádli",
-    "targetMuscleGroup": [ "legs" ]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Plank",
-    "sets": [ { "set_number": 1, "duration": 30, "id": 19 }, { "set_number": 2, "duration": 30, "id": 20 }, { "set_number": 3, "duration": 30, "id": 21 } ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": [ "core" ]
-  },
-  {
-    "exercise_number": 8,
-    "note": "Mountain Climbers",
-    "sets": [ { "set_number": 1, "reps": 20, "id": 22 }, { "set_number": 2, "reps": 20, "id": 23 }, { "set_number": 3, "reps": 20, "id": 24 } ],
-    "comment": "Hasizom és állóképesség",
-    "targetMuscleGroup": [ "core", "legs" ]
-  },
-  {
-    "exercise_number": 9,
-    "note": "Lábemelés fekve",
-    "sets": [ { "set_number": 1, "reps": 15, "id": 25 }, { "set_number": 2, "reps": 15, "id": 26 }, { "set_number": 3, "reps": 15, "id": 27 } ],
-    "comment": "Alsó hasizom",
-    "targetMuscleGroup": [ "core" ]
-  },
-  {
-    "exercise_number": 10,
-    "note": "Superman",
-    "sets": [ { "set_number": 1, "reps": 15, "id": 28 }, { "set_number": 2, "reps": 15, "id": 29 }, { "set_number": 3, "reps": 15, "id": 30 } ],
-    "comment": "Hátizom",
-    "targetMuscleGroup": [ "back" ]
-  },
-  {
-    "exercise_number": 11,
-    "note": "Reverse Snow Angel",
-    "sets": [ { "set_number": 1, "reps": 15, "id": 31 }, { "set_number": 2, "reps": 15, "id": 32 }, { "set_number": 3, "reps": 15, "id": 33 } ],
-    "comment": "Lapocka és hát",
-    "targetMuscleGroup": [ "back", "shoulders" ]
-  },
-  {
-    "exercise_number": 12,
-    "note": "Bird Dog",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 34 }, { "set_number": 2, "reps": 12, "id": 35 }, { "set_number": 3, "reps": 12, "id": 36 } ],
-    "comment": "Törzs és hát",
-    "targetMuscleGroup": [ "core", "back" ]
-  },
-  {
-    "exercise_number": 13,
-    "note": "Wall Angels",
-    "sets": [ { "set_number": 1, "reps": 15, "id": 37 }, { "set_number": 2, "reps": 15, "id": 38 }, { "set_number": 3, "reps": 15, "id": 39 } ],
-    "comment": "Váll és hát",
-    "targetMuscleGroup": [ "shoulders", "back" ]
-  },
-  {
-    "exercise_number": 14,
-    "note": "Arm Circles",
-    "sets": [ { "set_number": 1, "reps": 20, "id": 40 }, { "set_number": 2, "reps": 20, "id": 41 }, { "set_number": 3, "reps": 20, "id": 42 } ],
-    "comment": "Vállak bemelegítése",
-    "targetMuscleGroup": [ "shoulders" ]
-  },
-  {
-    "exercise_number": 15,
-    "note": "Side Plank",
-    "sets": [ { "set_number": 1, "duration": 30, "id": 43 }, { "set_number": 2, "duration": 30, "id": 44 }, { "set_number": 3, "duration": 30, "id": 45 } ],
-    "comment": "Ferde hasizmok",
-    "targetMuscleGroup": [ "core" ]
-  },
-  {
-    "exercise_number": 16,
-    "note": "Front Arm Raise (palackkal)",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 46 }, { "set_number": 2, "reps": 12, "id": 47 }, { "set_number": 3, "reps": 12, "id": 48 } ],
-    "comment": "Váll elülső része",
-    "targetMuscleGroup": [ "shoulders" ]
-  },
-  {
-    "exercise_number": 17,
-    "note": "Standing Bicep Curl (palackkal)",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 49 }, { "set_number": 2, "reps": 12, "id": 50 }, { "set_number": 3, "reps": 12, "id": 51 } ],
-    "comment": "Bicepsz",
-    "targetMuscleGroup": [ "arms" ]
-  },
-  {
-    "exercise_number": 18,
-    "note": "Overhead Tricep Extension (palackkal)",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 52 }, { "set_number": 2, "reps": 12, "id": 53 }, { "set_number": 3, "reps": 12, "id": 54 } ],
-    "comment": "Tricepsz",
-    "targetMuscleGroup": [ "arms" ]
-  },
-  {
-    "exercise_number": 19,
-    "note": "Push Up to Downward Dog",
-    "sets": [ { "set_number": 1, "reps": 10, "id": 55 }, { "set_number": 2, "reps": 10, "id": 56 }, { "set_number": 3, "reps": 10, "id": 57 } ],
-    "comment": "Mellkas, váll, hát",
-    "targetMuscleGroup": [ "chest", "shoulders", "back" ]
-  },
-  {
-    "exercise_number": 20,
-    "note": "Decline Push Up",
-    "sets": [ { "set_number": 1, "reps": 10, "id": 58 }, { "set_number": 2, "reps": 10, "id": 59 }, { "set_number": 3, "reps": 10, "id": 60 } ],
-    "comment": "Alsó mellkas",
-    "targetMuscleGroup": [ "chest", "triceps" ]
-  },
-  {
-    "exercise_number": 21,
-    "note": "Chair Row (széken húzódzkodás imitálva)",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 61 }, { "set_number": 2, "reps": 12, "id": 62 }, { "set_number": 3, "reps": 12, "id": 63 } ],
-    "comment": "Hátizom saját testsúllyal",
-    "targetMuscleGroup": [ "back", "arms" ]
-  },
-  {
-    "exercise_number": 22,
-    "note": "Wall Sit",
-    "sets": [ { "set_number": 1, "duration": 30, "id": 64 }, { "set_number": 2, "duration": 30, "id": 65 }, { "set_number": 3, "duration": 30, "id": 66 } ],
-    "comment": "Comb és farizmok",
-    "targetMuscleGroup": [ "legs", "glutes" ]
-  },
-  {
-    "exercise_number": 23,
-    "note": "Step Up (lépcsőre)",
-    "sets": [ { "set_number": 1, "reps": 12, "id": 67 }, { "set_number": 2, "reps": 12, "id": 68 }, { "set_number": 3, "reps": 12, "id": 69 } ],
-    "comment": "Láb és egyensúly",
-    "targetMuscleGroup": [ "legs" ]
-  },
-  {
-    "exercise_number": 24,
-    "note": "Sit Up",
-    "sets": [ { "set_number": 1, "reps": 15, "id": 70 }, { "set_number": 2, "reps": 15, "id": 71 }, { "set_number": 3, "reps": 15, "id": 72 } ],
-    "comment": "Hasprés",
-    "targetMuscleGroup": [ "core" ]
-  },
-  {
-    "exercise_number": 25,
-    "note": "Russian Twist",
-    "sets": [ { "set_number": 1, "reps": 20, "id": 73 }, { "set_number": 2, "reps": 20, "id": 74 }, { "set_number": 3, "reps": 20, "id": 75 } ],
-    "comment": "Ferde hasizom",
-    "targetMuscleGroup": [ "core" ]
-  }
-],
-
-
- "muscle_beginner_dumbbell": [
-  {
-    "exercise_number": 4,
-    "note": "Dumbbell Shoulder Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 19
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 20
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 21
-      }
-    ],
-    "comment": "Shoulder strength",
-    "targetMuscleGroup": [
-      "shoulders"
-    ]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Lunges",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 22
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 23
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 24
-      }
-    ],
-    "comment": "Leg and glutes",
-    "targetMuscleGroup": [
-      "legs",
-      "glutes"
-    ]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Dumbbell Row",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 25
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 26
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 27
-      }
-    ],
-    "comment": "Back and biceps",
-    "targetMuscleGroup": [
-      "back",
-      "biceps"
-    ]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Dumbbell Chest Fly",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 28
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 29
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 30
-      }
-    ],
-    "comment": "Chest and shoulders",
-    "targetMuscleGroup": [
-      "chest",
-      "shoulders"
-    ]
-  },
-  {
-    "exercise_number": 8,
-    "note": "Romanian Deadlift",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 31
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 32
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 33
-      }
-    ],
-    "comment": "Hamstrings and glutes",
-    "targetMuscleGroup": [
-      "legs",
-      "glutes"
-    ]
-  },
-  {
-    "exercise_number": 9,
-    "note": "Dumbbell Bicep Curl",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 34
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 35
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 36
-      }
-    ],
-    "comment": "Biceps",
-    "targetMuscleGroup": [
-      "biceps"
-    ]
-  },
-  {
-    "exercise_number": 10,
-    "note": "Dumbbell Tricep Extension",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 37
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 38
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 39
-      }
-    ],
-    "comment": "Triceps",
-    "targetMuscleGroup": [
-      "triceps"
-    ]
-  },
-  {
-    "exercise_number": 11,
-    "note": "Russian Twist",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 15,
-        "id": 40
-      },
-      {
-        "set_number": 2,
-        "reps": 15,
-        "id": 41
-      },
-      {
-        "set_number": 3,
-        "reps": 15,
-        "id": 42
-      }
-    ],
-    "comment": "Core rotation",
-    "targetMuscleGroup": [
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 12,
-    "note": "Dumbbell Lateral Raise",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 43
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 44
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 45
-      }
-    ],
-    "comment": "Shoulders",
-    "targetMuscleGroup": [
-      "shoulders"
-    ]
-  },
-  {
-    "exercise_number": 13,
-    "note": "Glute Bridge",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 15,
-        "id": 46
-      },
-      {
-        "set_number": 2,
-        "reps": 15,
-        "id": 47
-      },
-      {
-        "set_number": 3,
-        "reps": 15,
-        "id": 48
-      }
-    ],
-    "comment": "Glutes and core",
-    "targetMuscleGroup": [
-      "glutes",
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 14,
-    "note": "Dumbbell Deadlift",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 49
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 50
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 51
-      }
-    ],
-    "comment": "Back and glutes",
-    "targetMuscleGroup": [
-      "back",
-      "glutes"
-    ]
-  },
-  {
-    "exercise_number": 15,
-    "note": "Dumbbell Chest Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 52
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 53
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 54
-      }
-    ],
-    "comment": "Chest and triceps",
-    "targetMuscleGroup": [
-      "chest",
-      "triceps"
-    ]
-  },
-  {
-    "exercise_number": 16,
-    "note": "Dumbbell Shrugs",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 55
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 56
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 57
-      }
-    ],
-    "comment": "Traps",
-    "targetMuscleGroup": [
-      "traps"
-    ]
-  },
-  {
-    "exercise_number": 17,
-    "note": "Dumbbell Pullover",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 58
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 59
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 60
-      }
-    ],
-    "comment": "Chest and back",
-    "targetMuscleGroup": [
-      "chest",
-      "back"
-    ]
-  },
-  {
-    "exercise_number": 18,
-    "note": "Standing Calf Raise",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 15,
-        "id": 61
-      },
-      {
-        "set_number": 2,
-        "reps": 15,
-        "id": 62
-      },
-      {
-        "set_number": 3,
-        "reps": 15,
-        "id": 63
-      }
-    ],
-    "comment": "Calves",
-    "targetMuscleGroup": [
-      "calves"
-    ]
-  },
-  {
-    "exercise_number": 19,
-    "note": "Dumbbell Hammer Curl",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 64
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 65
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 66
-      }
-    ],
-    "comment": "Biceps",
-    "targetMuscleGroup": [
-      "biceps"
-    ]
-  },
-  {
-    "exercise_number": 20,
-    "note": "Dumbbell Front Raise",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 67
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 68
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 69
-      }
-    ],
-    "comment": "Shoulders",
-    "targetMuscleGroup": [
-      "shoulders"
-    ]
-  },
-  {
-    "exercise_number": 21,
-    "note": "Dumbbell Reverse Fly",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 70
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 71
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 72
-      }
-    ],
-    "comment": "Back and shoulders",
-    "targetMuscleGroup": [
-      "back",
-      "shoulders"
-    ]
-  },
-  {
-    "exercise_number": 22,
-    "note": "Dumbbell Chest Press (Incline)",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 73
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 74
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 75
-      }
-    ],
-    "comment": "Upper chest",
-    "targetMuscleGroup": [
-      "chest",
-      "shoulders"
-    ]
-  }
-],
-
- "muscle_beginner_kettlebell": [
-  {
-    "exercise_number": 1,
-    "note": "Bench Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 19
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 20
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 21
-      }
-    ],
-    "comment": "Muscle building",
-    "targetMuscleGroup": [
-      "chest",
-      "triceps"
-    ]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Squats",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 15,
-        "id": 22
-      },
-      {
-        "set_number": 2,
-        "reps": 15,
-        "id": 23
-      },
-      {
-        "set_number": 3,
-        "reps": 15,
-        "id": 24
-      }
-    ],
-    "comment": "Leg strength",
-    "targetMuscleGroup": [
-      "legs",
-      "glutes"
-    ]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      {
-        "set_number": 1,
-        "duration": 30,
-        "id": 25
-      },
-      {
-        "set_number": 2,
-        "duration": 30,
-        "id": 26
-      },
-      {
-        "set_number": 3,
-        "duration": 30,
-        "id": 27
-      }
-    ],
-    "comment": "Core stability",
-    "targetMuscleGroup": [
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Kettlebell Swing",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 15,
-        "id": 28
-      },
-      {
-        "set_number": 2,
-        "reps": 15,
-        "id": 29
-      },
-      {
-        "set_number": 3,
-        "reps": 15,
-        "id": 30
-      }
-    ],
-    "comment": "Full body, glutes, hamstrings",
-    "targetMuscleGroup": [
-      "legs",
-      "glutes",
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Kettlebell Goblet Squat",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 31
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 32
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 33
-      }
-    ],
-    "comment": "Legs, glutes, core",
-    "targetMuscleGroup": [
-      "legs",
-      "glutes",
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Kettlebell Deadlift",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 34
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 35
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 36
-      }
-    ],
-    "comment": "Hamstrings, glutes, back",
-    "targetMuscleGroup": [
-      "legs",
-      "glutes",
-      "back"
-    ]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Kettlebell Shoulder Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 37
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 38
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 39
-      }
-    ],
-    "comment": "Shoulders, triceps",
-    "targetMuscleGroup": [
-      "shoulders",
-      "triceps"
-    ]
-  },
-  {
-    "exercise_number": 8,
-    "note": "Russian Twists",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 20,
-        "id": 40
-      },
-      {
-        "set_number": 2,
-        "reps": 20,
-        "id": 41
-      },
-      {
-        "set_number": 3,
-        "reps": 20,
-        "id": 42
-      }
-    ],
-    "comment": "Core, obliques",
-    "targetMuscleGroup": [
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 9,
-    "note": "Kettlebell Clean and Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 43
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 44
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 45
-      }
-    ],
-    "comment": "Shoulders, arms, core",
-    "targetMuscleGroup": [
-      "shoulders",
-      "arms",
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 10,
-    "note": "Kettlebell High Pull",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 15,
-        "id": 46
-      },
-      {
-        "set_number": 2,
-        "reps": 15,
-        "id": 47
-      },
-      {
-        "set_number": 3,
-        "reps": 15,
-        "id": 48
-      }
-    ],
-    "comment": "Shoulders, back",
-    "targetMuscleGroup": [
-      "shoulders",
-      "back"
-    ]
-  },
-  {
-    "exercise_number": 11,
-    "note": "Kettlebell Renegade Rows",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 49
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 50
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 51
-      }
-    ],
-    "comment": "Back, core",
-    "targetMuscleGroup": [
-      "back",
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 12,
-    "note": "Kettlebell Lunges",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 52
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 53
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 54
-      }
-    ],
-    "comment": "Legs, glutes",
-    "targetMuscleGroup": [
-      "legs",
-      "glutes"
-    ]
-  },
-  {
-    "exercise_number": 13,
-    "note": "Kettlebell Snatch",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 55
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 56
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 57
-      }
-    ],
-    "comment": "Full body, core, shoulders",
-    "targetMuscleGroup": [
-      "core",
-      "shoulders"
-    ]
-  },
-  {
-    "exercise_number": 14,
-    "note": "Kettlebell Thrusters",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 58
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 59
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 60
-      }
-    ],
-    "comment": "Shoulders, legs",
-    "targetMuscleGroup": [
-      "shoulders",
-      "legs"
-    ]
-  },
-  {
-    "exercise_number": 15,
-    "note": "Kettlebell Overhead Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 61
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 62
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 63
-      }
-    ],
-    "comment": "Shoulders, triceps",
-    "targetMuscleGroup": [
-      "shoulders",
-      "triceps"
-    ]
-  },
-  {
-    "exercise_number": 16,
-    "note": "Kettlebell Floor Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 64
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 65
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 66
-      }
-    ],
-    "comment": "Chest, triceps",
-    "targetMuscleGroup": [
-      "chest",
-      "triceps"
-    ]
-  },
-  {
-    "exercise_number": 17,
-    "note": "Kettlebell Russian Twist",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 20,
-        "id": 67
-      },
-      {
-        "set_number": 2,
-        "reps": 20,
-        "id": 68
-      },
-      {
-        "set_number": 3,
-        "reps": 20,
-        "id": 69
-      }
-    ],
-    "comment": "Core, obliques",
-    "targetMuscleGroup": [
-      "core"
-    ]
-  },
-  {
-    "exercise_number": 18,
-    "note": "Kettlebell Squat to Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 70
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 71
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 72
-      }
-    ],
-    "comment": "Legs, shoulders",
-    "targetMuscleGroup": [
-      "legs",
-      "shoulders"
-    ]
-  },
-  {
-    "exercise_number": 19,
-    "note": "Kettlebell Deadlift to Press",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 12,
-        "id": 73
-      },
-      {
-        "set_number": 2,
-        "reps": 12,
-        "id": 74
-      },
-      {
-        "set_number": 3,
-        "reps": 12,
-        "id": 75
-      }
-    ],
-    "comment": "Legs, shoulders, back",
-    "targetMuscleGroup": [
-      "legs",
-      "shoulders",
-      "back"
-    ]
-  },
-  {
-    "exercise_number": 20,
-    "note": "Kettlebell Lateral Raise",
-    "sets": [
-      {
-        "set_number": 1,
-        "reps": 15,
-        "id": 76
-      },
-      {
-        "set_number": 2,
-        "reps": 15,
-        "id": 77
-      },
-      {
-        "set_number": 3,
-        "reps": 15,
-        "id": 78
-      }
-    ],
-    "comment": "Shoulders",
-    "targetMuscleGroup": [
-      "shoulders"
-    ]
-  }
-],
-
-  "muscle_beginner_barbell": [
+  "muscle_beginner_none": [
+    {
+      "exercise_number": 1,
+      "note": "Push Up",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 2
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 3
+        }
+      ],
+      "comment": "Mellkas, tricepsz",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps",
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Incline Push Up",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 4
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 5
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 6
+        }
+      ],
+      "comment": "Felső mellkas",
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Tricep Dips (padra támaszkodva)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 7
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 8
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 9
+        }
+      ],
+      "comment": "Tricepsz",
+      "targetMuscleGroup": [
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 10
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 11
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 12
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Kitörés (súly nélkül)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 13
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 14
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 15
+        }
+      ],
+      "comment": "Láb és fenék",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Vádliemelés állva",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 16
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 17
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 18
+        }
+      ],
+      "comment": "Vádli",
+      "targetMuscleGroup": [
+        "legs"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 19
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 20
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 21
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Mountain Climbers",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 22
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 23
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 24
+        }
+      ],
+      "comment": "Hasizom és állóképesség",
+      "targetMuscleGroup": [
+        "core",
+        "legs"
+      ]
+    },
+    {
+      "exercise_number": 9,
+      "note": "Lábemelés fekve",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 25
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 26
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 27
+        }
+      ],
+      "comment": "Alsó hasizom",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 10,
+      "note": "Superman",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 28
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 29
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 30
+        }
+      ],
+      "comment": "Hátizom",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 11,
+      "note": "Reverse Snow Angel",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 31
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 32
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 33
+        }
+      ],
+      "comment": "Lapocka és hát",
+      "targetMuscleGroup": [
+        "back",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 12,
+      "note": "Bird Dog",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 34
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 35
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 36
+        }
+      ],
+      "comment": "Törzs és hát",
+      "targetMuscleGroup": [
+        "core",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 13,
+      "note": "Wall Angels",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 37
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 38
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 39
+        }
+      ],
+      "comment": "Váll és hát",
+      "targetMuscleGroup": [
+        "shoulders",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 14,
+      "note": "Arm Circles",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 40
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 41
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 42
+        }
+      ],
+      "comment": "Vállak bemelegítése",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 15,
+      "note": "Side Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 43
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 44
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 45
+        }
+      ],
+      "comment": "Ferde hasizmok",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 16,
+      "note": "Front Arm Raise (palackkal)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 46
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 47
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 48
+        }
+      ],
+      "comment": "Váll elülső része",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 17,
+      "note": "Standing Bicep Curl (palackkal)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 49
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 50
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 51
+        }
+      ],
+      "comment": "Bicepsz",
+      "targetMuscleGroup": [
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 18,
+      "note": "Overhead Tricep Extension (palackkal)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 52
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 53
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 54
+        }
+      ],
+      "comment": "Tricepsz",
+      "targetMuscleGroup": [
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 19,
+      "note": "Push Up to Downward Dog",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 55
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 56
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 57
+        }
+      ],
+      "comment": "Mellkas, váll, hát",
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 20,
+      "note": "Decline Push Up",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 58
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 59
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 60
+        }
+      ],
+      "comment": "Alsó mellkas",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 21,
+      "note": "Chair Row (széken húzódzkodás imitálva)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 61
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 62
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 63
+        }
+      ],
+      "comment": "Hátizom saját testsúllyal",
+      "targetMuscleGroup": [
+        "back",
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 22,
+      "note": "Wall Sit",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 64
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 65
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 66
+        }
+      ],
+      "comment": "Comb és farizmok",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 23,
+      "note": "Step Up (lépcsőre)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 67
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 68
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 69
+        }
+      ],
+      "comment": "Láb és egyensúly",
+      "targetMuscleGroup": [
+        "legs"
+      ]
+    },
+    {
+      "exercise_number": 24,
+      "note": "Sit Up",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 70
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 71
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 72
+        }
+      ],
+      "comment": "Hasprés",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 25,
+      "note": "Russian Twist",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 73
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 74
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 75
+        }
+      ],
+      "comment": "Ferde hasizom",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    }
+  ],
+  "muscle_beginner_dumbbell": [
+    {
+      "exercise_number": 4,
+      "note": "Dumbbell Shoulder Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 19
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 20
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 21
+        }
+      ],
+      "comment": "Shoulder strength",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Lunges",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 22
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 23
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 24
+        }
+      ],
+      "comment": "Leg and glutes",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Dumbbell Row",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 25
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 26
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 27
+        }
+      ],
+      "comment": "Back and biceps",
+      "targetMuscleGroup": [
+        "back",
+        "biceps"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Dumbbell Chest Fly",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 28
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 29
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 30
+        }
+      ],
+      "comment": "Chest and shoulders",
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Romanian Deadlift",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 31
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 32
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 33
+        }
+      ],
+      "comment": "Hamstrings and glutes",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 9,
+      "note": "Dumbbell Bicep Curl",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 34
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 35
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 36
+        }
+      ],
+      "comment": "Biceps",
+      "targetMuscleGroup": [
+        "biceps"
+      ]
+    },
+    {
+      "exercise_number": 10,
+      "note": "Dumbbell Tricep Extension",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 37
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 38
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 39
+        }
+      ],
+      "comment": "Triceps",
+      "targetMuscleGroup": [
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 11,
+      "note": "Russian Twist",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 40
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 41
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 42
+        }
+      ],
+      "comment": "Core rotation",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 12,
+      "note": "Dumbbell Lateral Raise",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 43
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 44
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 45
+        }
+      ],
+      "comment": "Shoulders",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 13,
+      "note": "Glute Bridge",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 46
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 47
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 48
+        }
+      ],
+      "comment": "Glutes and core",
+      "targetMuscleGroup": [
+        "glutes",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 14,
+      "note": "Dumbbell Deadlift",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 49
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 50
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 51
+        }
+      ],
+      "comment": "Back and glutes",
+      "targetMuscleGroup": [
+        "back",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 15,
+      "note": "Dumbbell Chest Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 52
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 53
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 54
+        }
+      ],
+      "comment": "Chest and triceps",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 16,
+      "note": "Dumbbell Shrugs",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 55
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 56
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 57
+        }
+      ],
+      "comment": "Traps",
+      "targetMuscleGroup": [
+        "traps"
+      ]
+    },
+    {
+      "exercise_number": 17,
+      "note": "Dumbbell Pullover",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 58
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 59
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 60
+        }
+      ],
+      "comment": "Chest and back",
+      "targetMuscleGroup": [
+        "chest",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 18,
+      "note": "Standing Calf Raise",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 61
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 62
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 63
+        }
+      ],
+      "comment": "Calves",
+      "targetMuscleGroup": [
+        "calves"
+      ]
+    },
+    {
+      "exercise_number": 19,
+      "note": "Dumbbell Hammer Curl",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 64
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 65
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 66
+        }
+      ],
+      "comment": "Biceps",
+      "targetMuscleGroup": [
+        "biceps"
+      ]
+    },
+    {
+      "exercise_number": 20,
+      "note": "Dumbbell Front Raise",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 67
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 68
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 69
+        }
+      ],
+      "comment": "Shoulders",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 21,
+      "note": "Dumbbell Reverse Fly",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 70
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 71
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 72
+        }
+      ],
+      "comment": "Back and shoulders",
+      "targetMuscleGroup": [
+        "back",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 22,
+      "note": "Dumbbell Chest Press (Incline)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 73
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 74
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 75
+        }
+      ],
+      "comment": "Upper chest",
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders"
+      ]
+    }
+  ],
+  "muscle_beginner_kettlebell": [
     {
       "exercise_number": 1,
       "note": "Bench Press",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 28 },
-        { "set_number": 2, "reps": 12, "id": 29 },
-        { "set_number": 3, "reps": 12, "id": 30 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 19
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 20
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 21
+        }
       ],
       "comment": "Muscle building",
-      "targetMuscleGroup": ["chest", "triceps"]
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
     },
     {
       "exercise_number": 2,
-      "note": "Squat",
+      "note": "Squats",
       "sets": [
-        { "set_number": 1, "reps": 15, "id": 31 },
-        { "set_number": 2, "reps": 15, "id": 32 },
-        { "set_number": 3, "reps": 15, "id": 33 }
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 22
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 23
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 24
+        }
       ],
       "comment": "Leg strength",
-      "targetMuscleGroup": ["legs", "glutes"]
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
     },
     {
       "exercise_number": 3,
       "note": "Plank",
       "sets": [
-        { "set_number": 1, "duration": 30, "id": 34 },
-        { "set_number": 2, "duration": 30, "id": 35 },
-        { "set_number": 3, "duration": 30, "id": 36 }
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 25
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 26
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 27
+        }
       ],
       "comment": "Core stability",
-      "targetMuscleGroup": ["core"]
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Kettlebell Swing",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 28
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 29
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 30
+        }
+      ],
+      "comment": "Full body, glutes, hamstrings",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Kettlebell Goblet Squat",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 31
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 32
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 33
+        }
+      ],
+      "comment": "Legs, glutes, core",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Kettlebell Deadlift",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 34
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 35
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 36
+        }
+      ],
+      "comment": "Hamstrings, glutes, back",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Kettlebell Shoulder Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 37
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 38
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 39
+        }
+      ],
+      "comment": "Shoulders, triceps",
+      "targetMuscleGroup": [
+        "shoulders",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Russian Twists",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 40
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 41
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 42
+        }
+      ],
+      "comment": "Core, obliques",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 9,
+      "note": "Kettlebell Clean and Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 43
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 44
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 45
+        }
+      ],
+      "comment": "Shoulders, arms, core",
+      "targetMuscleGroup": [
+        "shoulders",
+        "arms",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 10,
+      "note": "Kettlebell High Pull",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 46
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 47
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 48
+        }
+      ],
+      "comment": "Shoulders, back",
+      "targetMuscleGroup": [
+        "shoulders",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 11,
+      "note": "Kettlebell Renegade Rows",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 49
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 50
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 51
+        }
+      ],
+      "comment": "Back, core",
+      "targetMuscleGroup": [
+        "back",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 12,
+      "note": "Kettlebell Lunges",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 52
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 53
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 54
+        }
+      ],
+      "comment": "Legs, glutes",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 13,
+      "note": "Kettlebell Snatch",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 55
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 56
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 57
+        }
+      ],
+      "comment": "Full body, core, shoulders",
+      "targetMuscleGroup": [
+        "core",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 14,
+      "note": "Kettlebell Thrusters",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 58
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 59
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 60
+        }
+      ],
+      "comment": "Shoulders, legs",
+      "targetMuscleGroup": [
+        "shoulders",
+        "legs"
+      ]
+    },
+    {
+      "exercise_number": 15,
+      "note": "Kettlebell Overhead Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 61
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 62
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 63
+        }
+      ],
+      "comment": "Shoulders, triceps",
+      "targetMuscleGroup": [
+        "shoulders",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 16,
+      "note": "Kettlebell Floor Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 64
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 65
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 66
+        }
+      ],
+      "comment": "Chest, triceps",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 17,
+      "note": "Kettlebell Russian Twist",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 67
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 68
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 69
+        }
+      ],
+      "comment": "Core, obliques",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 18,
+      "note": "Kettlebell Squat to Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 70
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 71
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 72
+        }
+      ],
+      "comment": "Legs, shoulders",
+      "targetMuscleGroup": [
+        "legs",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 19,
+      "note": "Kettlebell Deadlift to Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 73
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 74
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 75
+        }
+      ],
+      "comment": "Legs, shoulders, back",
+      "targetMuscleGroup": [
+        "legs",
+        "shoulders",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 20,
+      "note": "Kettlebell Lateral Raise",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 76
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 77
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 78
+        }
+      ],
+      "comment": "Shoulders",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    }
+  ],
+  "muscle_beginner_barbell": [
+    {
+      "exercise_number": 1,
+      "note": "Bench Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 28
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 29
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 30
+        }
+      ],
+      "comment": "Muscle building",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Squat",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 31
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 32
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 33
+        }
+      ],
+      "comment": "Leg strength",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 34
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 35
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 36
+        }
+      ],
+      "comment": "Core stability",
+      "targetMuscleGroup": [
+        "core"
+      ]
     },
     {
       "exercise_number": 4,
       "note": "Overhead Press",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 37 },
-        { "set_number": 2, "reps": 12, "id": 38 },
-        { "set_number": 3, "reps": 12, "id": 39 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 37
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 38
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 39
+        }
       ],
       "comment": "Shoulder strength",
-      "targetMuscleGroup": ["shoulders"]
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
     },
     {
       "exercise_number": 5,
       "note": "Deadlift",
       "sets": [
-        { "set_number": 1, "reps": 10, "id": 40 },
-        { "set_number": 2, "reps": 10, "id": 41 },
-        { "set_number": 3, "reps": 10, "id": 42 }
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 40
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 41
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 42
+        }
       ],
       "comment": "Back strength",
-      "targetMuscleGroup": ["back"]
+      "targetMuscleGroup": [
+        "back"
+      ]
     },
     {
       "exercise_number": 6,
       "note": "Lunges",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 43 },
-        { "set_number": 2, "reps": 12, "id": 44 },
-        { "set_number": 3, "reps": 12, "id": 45 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 43
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 44
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 45
+        }
       ],
       "comment": "Legs and glutes",
-      "targetMuscleGroup": ["legs", "glutes"]
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
     },
     {
       "exercise_number": 7,
       "note": "Bent-over Rows",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 46 },
-        { "set_number": 2, "reps": 12, "id": 47 },
-        { "set_number": 3, "reps": 12, "id": 48 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 46
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 47
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 48
+        }
       ],
       "comment": "Back focus",
-      "targetMuscleGroup": ["back"]
+      "targetMuscleGroup": [
+        "back"
+      ]
     },
     {
       "exercise_number": 8,
       "note": "Bicep Curls",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 49 },
-        { "set_number": 2, "reps": 12, "id": 50 },
-        { "set_number": 3, "reps": 12, "id": 51 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 49
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 50
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 51
+        }
       ],
       "comment": "Bicep strength",
-      "targetMuscleGroup": ["biceps"]
+      "targetMuscleGroup": [
+        "biceps"
+      ]
     },
     {
       "exercise_number": 9,
       "note": "Tricep Dips",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 52 },
-        { "set_number": 2, "reps": 12, "id": 53 },
-        { "set_number": 3, "reps": 12, "id": 54 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 52
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 53
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 54
+        }
       ],
       "comment": "Triceps focus",
-      "targetMuscleGroup": ["triceps"]
+      "targetMuscleGroup": [
+        "triceps"
+      ]
     },
     {
       "exercise_number": 10,
       "note": "Incline Bench Press",
       "sets": [
-        { "set_number": 1, "reps": 10, "id": 55 },
-        { "set_number": 2, "reps": 10, "id": 56 },
-        { "set_number": 3, "reps": 10, "id": 57 }
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 55
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 56
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 57
+        }
       ],
       "comment": "Upper chest development",
-      "targetMuscleGroup": ["chest", "shoulders"]
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders"
+      ]
     },
     {
       "exercise_number": 11,
       "note": "Barbell Pullover",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 58 },
-        { "set_number": 2, "reps": 12, "id": 59 },
-        { "set_number": 3, "reps": 12, "id": 60 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 58
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 59
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 60
+        }
       ],
       "comment": "Chest and back expansion",
-      "targetMuscleGroup": ["chest", "back"]
+      "targetMuscleGroup": [
+        "chest",
+        "back"
+      ]
     },
     {
       "exercise_number": 12,
       "note": "Skull Crushers",
       "sets": [
-        { "set_number": 1, "reps": 10, "id": 61 },
-        { "set_number": 2, "reps": 10, "id": 62 },
-        { "set_number": 3, "reps": 10, "id": 63 }
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 61
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 62
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 63
+        }
       ],
       "comment": "Tricep isolation",
-      "targetMuscleGroup": ["triceps"]
+      "targetMuscleGroup": [
+        "triceps"
+      ]
     },
     {
       "exercise_number": 13,
       "note": "Front Squat",
       "sets": [
-        { "set_number": 1, "reps": 10, "id": 64 },
-        { "set_number": 2, "reps": 10, "id": 65 },
-        { "set_number": 3, "reps": 10, "id": 66 }
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 64
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 65
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 66
+        }
       ],
       "comment": "Quad-focused squat",
-      "targetMuscleGroup": ["legs", "core"]
+      "targetMuscleGroup": [
+        "legs",
+        "core"
+      ]
     },
     {
       "exercise_number": 14,
       "note": "Barbell Hip Thrust",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 67 },
-        { "set_number": 2, "reps": 12, "id": 68 },
-        { "set_number": 3, "reps": 12, "id": 69 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 67
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 68
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 69
+        }
       ],
       "comment": "Glute activation",
-      "targetMuscleGroup": ["glutes"]
+      "targetMuscleGroup": [
+        "glutes"
+      ]
     },
     {
       "exercise_number": 15,
       "note": "Barbell Rollouts",
       "sets": [
-        { "set_number": 1, "reps": 10, "id": 70 },
-        { "set_number": 2, "reps": 10, "id": 71 },
-        { "set_number": 3, "reps": 10, "id": 72 }
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 70
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 71
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 72
+        }
       ],
       "comment": "Core strength",
-      "targetMuscleGroup": ["core"]
+      "targetMuscleGroup": [
+        "core"
+      ]
     },
     {
       "exercise_number": 16,
       "note": "Push Press",
       "sets": [
-        { "set_number": 1, "reps": 8, "id": 73 },
-        { "set_number": 2, "reps": 8, "id": 74 },
-        { "set_number": 3, "reps": 8, "id": 75 }
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 73
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 74
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 75
+        }
       ],
       "comment": "Explosive shoulder work",
-      "targetMuscleGroup": ["shoulders"]
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
     },
     {
       "exercise_number": 17,
       "note": "Barbell Shrugs",
       "sets": [
-        { "set_number": 1, "reps": 15, "id": 76 },
-        { "set_number": 2, "reps": 15, "id": 77 },
-        { "set_number": 3, "reps": 15, "id": 78 }
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 76
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 77
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 78
+        }
       ],
       "comment": "Trap development",
-      "targetMuscleGroup": ["back"]
+      "targetMuscleGroup": [
+        "back"
+      ]
     },
     {
       "exercise_number": 18,
       "note": "Preacher Curls",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 79 },
-        { "set_number": 2, "reps": 12, "id": 80 },
-        { "set_number": 3, "reps": 12, "id": 81 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 79
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 80
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 81
+        }
       ],
       "comment": "Bicep isolation",
-      "targetMuscleGroup": ["biceps"]
+      "targetMuscleGroup": [
+        "biceps"
+      ]
     },
     {
       "exercise_number": 19,
       "note": "Reverse Curls",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 82 },
-        { "set_number": 2, "reps": 12, "id": 83 },
-        { "set_number": 3, "reps": 12, "id": 84 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 82
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 83
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 84
+        }
       ],
       "comment": "Forearm and bicep",
-      "targetMuscleGroup": ["biceps"]
+      "targetMuscleGroup": [
+        "biceps"
+      ]
     }
   ],
   "muscle_beginner_resistance_band": [
@@ -1406,1522 +2138,3581 @@
       "exercise_number": 1,
       "note": "Fekvenyomás",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 101 },
-        { "set_number": 2, "reps": 12, "id": 102 },
-        { "set_number": 3, "reps": 12, "id": 103 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 101
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 102
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 103
+        }
       ],
       "comment": "Mell és tricepsz",
-      "targetMuscleGroup": ["chest", "triceps","arms"]
+      "targetMuscleGroup": [
+        "chest",
+        "triceps",
+        "arms"
+      ]
     },
     {
       "exercise_number": 2,
       "note": "Szalagos evezés",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 104 },
-        { "set_number": 2, "reps": 12, "id": 105 },
-        { "set_number": 3, "reps": 12, "id": 106 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 104
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 105
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 106
+        }
       ],
       "comment": "Hát és bicepsz",
-      "targetMuscleGroup": ["back", "biceps","arms"]
+      "targetMuscleGroup": [
+        "back",
+        "biceps",
+        "arms"
+      ]
     },
     {
       "exercise_number": 3,
       "note": "Szalagos oldalemelés",
       "sets": [
-        { "set_number": 1, "reps": 15, "id": 107 },
-        { "set_number": 2, "reps": 15, "id": 108 },
-        { "set_number": 3, "reps": 15, "id": 109 }
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 107
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 108
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 109
+        }
       ],
       "comment": "Vállizom",
-      "targetMuscleGroup": ["shoulders"]
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
     },
     {
       "exercise_number": 4,
       "note": "Guggolás szalaggal",
       "sets": [
-        { "set_number": 1, "reps": 15, "id": 110 },
-        { "set_number": 2, "reps": 15, "id": 111 },
-        { "set_number": 3, "reps": 15, "id": 112 }
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 110
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 111
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 112
+        }
       ],
       "comment": "Láb és farizom",
-      "targetMuscleGroup": ["legs", "glutes"]
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
     },
     {
       "exercise_number": 5,
       "note": "Szalagos csípőemelés",
       "sets": [
-        { "set_number": 1, "reps": 20, "id": 113 },
-        { "set_number": 2, "reps": 20, "id": 114 },
-        { "set_number": 3, "reps": 20, "id": 115 }
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 113
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 114
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 115
+        }
       ],
       "comment": "Glute és alsó hát",
-      "targetMuscleGroup": ["glutes", "lower back"]
+      "targetMuscleGroup": [
+        "glutes",
+        "lower back"
+      ]
     },
     {
       "exercise_number": 6,
       "note": "Plank",
       "sets": [
-        { "set_number": 1, "duration": 30, "id": 116 },
-        { "set_number": 2, "duration": 30, "id": 117 },
-        { "set_number": 3, "duration": 30, "id": 118 }
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 116
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 117
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 118
+        }
       ],
       "comment": "Törzs stabilitás",
-      "targetMuscleGroup": ["core"]
+      "targetMuscleGroup": [
+        "core"
+      ]
     },
     {
       "exercise_number": 7,
       "note": "Szalagos bicepsz hajlítás",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 119 },
-        { "set_number": 2, "reps": 12, "id": 120 },
-        { "set_number": 3, "reps": 12, "id": 121 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 119
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 120
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 121
+        }
       ],
       "comment": "Bicepsz izoláció szalaggal",
-      "targetMuscleGroup": ["biceps","arms"]
+      "targetMuscleGroup": [
+        "biceps",
+        "arms"
+      ]
     },
     {
       "exercise_number": 8,
       "note": "Szalagos tricepsz nyújtás fej fölött",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 122 },
-        { "set_number": 2, "reps": 12, "id": 123 },
-        { "set_number": 3, "reps": 12, "id": 124 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 122
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 123
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 124
+        }
       ],
       "comment": "Tricepsz izoláció",
-      "targetMuscleGroup": ["triceps","arms"]
+      "targetMuscleGroup": [
+        "triceps",
+        "arms"
+      ]
     },
     {
       "exercise_number": 9,
       "note": "Szalagos állighúzás",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 125 },
-        { "set_number": 2, "reps": 12, "id": 126 },
-        { "set_number": 3, "reps": 12, "id": 127 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 125
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 126
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 127
+        }
       ],
       "comment": "Trapéz és váll",
-      "targetMuscleGroup": ["shoulders", "traps","arms"]
+      "targetMuscleGroup": [
+        "shoulders",
+        "traps",
+        "arms"
+      ]
     },
     {
       "exercise_number": 10,
       "note": "Szalagos kitörés",
       "sets": [
-        { "set_number": 1, "reps": 10, "id": 128 },
-        { "set_number": 2, "reps": 10, "id": 129 },
-        { "set_number": 3, "reps": 10, "id": 130 }
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 128
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 129
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 130
+        }
       ],
       "comment": "Comb és farizom",
-      "targetMuscleGroup": ["legs", "glutes"]
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
     },
     {
       "exercise_number": 11,
       "note": "Szalagos mellről tolás",
       "sets": [
-        { "set_number": 1, "reps": 12, "id": 131 },
-        { "set_number": 2, "reps": 12, "id": 132 },
-        { "set_number": 3, "reps": 12, "id": 133 }
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 131
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 132
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 133
+        }
       ],
       "comment": "Mellizom és váll első része",
-      "targetMuscleGroup": ["chest", "shoulders"]
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders"
+      ]
     }
   ],
   "muscle_beginner_pullup_bar": [
-  {
-    "exercise_number": 1,
-    "note": "Húzódzkodás",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 201 },
-      { "set_number": 2, "reps": 8, "id": 202 },
-      { "set_number": 3, "reps": 8, "id": 203 }
-    ],
-    "comment": "Hát és bicepsz",
-    "targetMuscleGroup": ["back", "biceps","arms"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Fordított evezés alacsony rúdon",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 219 },
-      { "set_number": 2, "reps": 10, "id": 220 },
-      { "set_number": 3, "reps": 10, "id": 221 }
-    ],
-    "comment": "Hát erősítés",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Lábemelés rúdon",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 204 },
-      { "set_number": 2, "reps": 12, "id": 205 },
-      { "set_number": 3, "reps": 12, "id": 206 }
-    ],
-    "comment": "Hasizom",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Térdhúzás rúdon",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 222 },
-      { "set_number": 2, "reps": 12, "id": 223 },
-      { "set_number": 3, "reps": 12, "id": 224 }
-    ],
-    "comment": "Alsó has",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Tartás rúdon (passive hang)",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 207 },
-      { "set_number": 2, "duration": 30, "id": 208 },
-      { "set_number": 3, "duration": 30, "id": 209 }
-    ],
-    "comment": "Fogáserő és váll",
-    "targetMuscleGroup": ["forearms", "shoulders"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Vállkörzés rúdon lógva",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 225 },
-      { "set_number": 2, "reps": 10, "id": 226 },
-      { "set_number": 3, "reps": 10, "id": 227 }
-    ],
-    "comment": "Váll mobilitás",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Kitörés testsúllyal",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 210 },
-      { "set_number": 2, "reps": 12, "id": 211 },
-      { "set_number": 3, "reps": 12, "id": 212 }
-    ],
-    "comment": "Láb és egyensúly",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 8,
-    "note": "Guggolás rúddal (testsúllyal vagy könnyű rúddal)",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 228 },
-      { "set_number": 2, "reps": 15, "id": 229 },
-      { "set_number": 3, "reps": 15, "id": 230 }
-    ],
-    "comment": "Lábedzés kezdőknek",
-    "targetMuscleGroup": ["legs"]
-  },
-  {
-    "exercise_number": 9,
-    "note": "Tolódzkodás két széken",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 213 },
-      { "set_number": 2, "reps": 10, "id": 214 },
-      { "set_number": 3, "reps": 10, "id": 215 }
-    ],
-    "comment": "Mellkas és tricepsz",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 10,
-    "note": "Fekvőtámasz rúdon",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 231 },
-      { "set_number": 2, "reps": 12, "id": 232 },
-      { "set_number": 3, "reps": 12, "id": 233 }
-    ],
-    "comment": "Mell és váll stabilitás",
-    "targetMuscleGroup": ["chest", "shoulders"]
-  },
-  {
-    "exercise_number": 11,
-    "note": "Oldalemelés kézisúllyal/szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 216 },
-      { "set_number": 2, "reps": 15, "id": 217 },
-      { "set_number": 3, "reps": 15, "id": 218 }
-    ],
-    "comment": "Váll formázása",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 12,
-    "note": "Bicepsz curl szalaggal vagy saját testsúllyal (pl. alulról húzás rúdon)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 234 },
-      { "set_number": 2, "reps": 10, "id": 235 },
-      { "set_number": 3, "reps": 10, "id": 236 }
-    ],
-    "comment": "Kiegészítő bicepsz gyakorlat",
-    "targetMuscleGroup": ["biceps"]
-  }
-],
-
+    {
+      "exercise_number": 1,
+      "note": "Húzódzkodás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 201
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 202
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 203
+        }
+      ],
+      "comment": "Hát és bicepsz",
+      "targetMuscleGroup": [
+        "back",
+        "biceps",
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Fordított evezés alacsony rúdon",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 219
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 220
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 221
+        }
+      ],
+      "comment": "Hát erősítés",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Lábemelés rúdon",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 204
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 205
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 206
+        }
+      ],
+      "comment": "Hasizom",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Térdhúzás rúdon",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 222
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 223
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 224
+        }
+      ],
+      "comment": "Alsó has",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Tartás rúdon (passive hang)",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 207
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 208
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 209
+        }
+      ],
+      "comment": "Fogáserő és váll",
+      "targetMuscleGroup": [
+        "forearms",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Vállkörzés rúdon lógva",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 225
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 226
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 227
+        }
+      ],
+      "comment": "Váll mobilitás",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Kitörés testsúllyal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 210
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 211
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 212
+        }
+      ],
+      "comment": "Láb és egyensúly",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Guggolás rúddal (testsúllyal vagy könnyű rúddal)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 228
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 229
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 230
+        }
+      ],
+      "comment": "Lábedzés kezdőknek",
+      "targetMuscleGroup": [
+        "legs"
+      ]
+    },
+    {
+      "exercise_number": 9,
+      "note": "Tolódzkodás két széken",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 213
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 214
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 215
+        }
+      ],
+      "comment": "Mellkas és tricepsz",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 10,
+      "note": "Fekvőtámasz rúdon",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 231
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 232
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 233
+        }
+      ],
+      "comment": "Mell és váll stabilitás",
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 11,
+      "note": "Oldalemelés kézisúllyal/szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 216
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 217
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 218
+        }
+      ],
+      "comment": "Váll formázása",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 12,
+      "note": "Bicepsz curl szalaggal vagy saját testsúllyal (pl. alulról húzás rúdon)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 234
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 235
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 236
+        }
+      ],
+      "comment": "Kiegészítő bicepsz gyakorlat",
+      "targetMuscleGroup": [
+        "biceps"
+      ]
+    }
+  ],
   "muscle_beginner_yoga_mat": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 55 },
-      { "set_number": 2, "reps": 12, "id": 56 },
-      { "set_number": 3, "reps": 12, "id": 57 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 58 },
-      { "set_number": 2, "reps": 15, "id": 59 },
-      { "set_number": 3, "reps": 15, "id": 60 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 61 },
-      { "set_number": 2, "duration": 30, "id": 62 },
-      { "set_number": 3, "duration": 30, "id": 63 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Csigolyatornász fekvőtámasz",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 244 },
-      { "set_number": 2, "reps": 12, "id": 245 },
-      { "set_number": 3, "reps": 12, "id": 246 }
-    ],
-    "comment": "Mellizom és tricepsz",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Hegyes támasz (Pike Push-Up)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 247 },
-      { "set_number": 2, "reps": 10, "id": 248 },
-      { "set_number": 3, "reps": 10, "id": 249 }
-    ],
-    "comment": "Vállizom fejlesztés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Szuperman gyakorlat",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 250 },
-      { "set_number": 2, "duration": 30, "id": 251 },
-      { "set_number": 3, "duration": 30, "id": 252 }
-    ],
-    "comment": "Hátizom és törzs",
-    "targetMuscleGroup": ["back", "core"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Oroszlánugrás (Burpee)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 253 },
-      { "set_number": 2, "reps": 10, "id": 254 },
-      { "set_number": 3, "reps": 10, "id": 255 }
-    ],
-    "comment": "Teljes test aktiválás",
-    "targetMuscleGroup": ["legs", "chest"]
-  },
-  {
-    "exercise_number": 8,
-    "note": "Oldalra emelés",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 256 },
-      { "set_number": 2, "reps": 15, "id": 257 },
-      { "set_number": 3, "reps": 15, "id": 258 }
-    ],
-    "comment": "Farizom fókusz",
-    "targetMuscleGroup": ["glutes"]
-  }
-],
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 55
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 56
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 57
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 58
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 59
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 60
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 61
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 62
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 63
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Csigolyatornász fekvőtámasz",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 244
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 245
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 246
+        }
+      ],
+      "comment": "Mellizom és tricepsz",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Hegyes támasz (Pike Push-Up)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 247
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 248
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 249
+        }
+      ],
+      "comment": "Vállizom fejlesztés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Szuperman gyakorlat",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 250
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 251
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 252
+        }
+      ],
+      "comment": "Hátizom és törzs",
+      "targetMuscleGroup": [
+        "back",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Oroszlánugrás (Burpee)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 253
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 254
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 255
+        }
+      ],
+      "comment": "Teljes test aktiválás",
+      "targetMuscleGroup": [
+        "legs",
+        "chest"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Oldalra emelés",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 256
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 257
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 258
+        }
+      ],
+      "comment": "Farizom fókusz",
+      "targetMuscleGroup": [
+        "glutes"
+      ]
+    }
+  ],
   "muscle_intermediate_none": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 64 },
-      { "set_number": 2, "reps": 12, "id": 65 },
-      { "set_number": 3, "reps": 12, "id": 66 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 67 },
-      { "set_number": 2, "reps": 15, "id": 68 },
-      { "set_number": 3, "reps": 15, "id": 69 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 70 },
-      { "set_number": 2, "duration": 30, "id": 71 },
-      { "set_number": 3, "duration": 30, "id": 72 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Széles karú fekvőtámasz",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 259 },
-      { "set_number": 2, "reps": 12, "id": 260 },
-      { "set_number": 3, "reps": 12, "id": 261 }
-    ],
-    "comment": "Mellizom kihívás",
-    "targetMuscleGroup": ["chest"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Bulgár guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 262 },
-      { "set_number": 2, "reps": 12, "id": 263 },
-      { "set_number": 3, "reps": 12, "id": 264 }
-    ],
-    "comment": "Egyensúly és farizom",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Oldaltámasz (Side Plank)",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 265 },
-      { "set_number": 2, "duration": 30, "id": 266 },
-      { "set_number": 3, "duration": 30, "id": 267 }
-    ],
-    "comment": "Oldalsó törzsizmok",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Hegyes támasz (Pike Push-Up)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 268 },
-      { "set_number": 2, "reps": 10, "id": 269 },
-      { "set_number": 3, "reps": 10, "id": 270 }
-    ],
-    "comment": "Vállizom erősítés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Push Up",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 268 },
-      { "set_number": 2, "reps": 10, "id": 269 },
-      { "set_number": 3, "reps": 10, "id": 270 }
-    ],
-    "comment": "Tricep isolation",
-    "targetMuscleGroup": ["arms"]
-  },
-  {
-    "exercise_number": 8,
-    "note": "Standing Bicep Curl (palackkal)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 269 },
-      { "set_number": 2, "reps": 10, "id": 270 },
-      { "set_number": 3, "reps": 10, "id": 271 }
-    ],
-    "comment": "Bicep isolation",
-    "targetMuscleGroup": ["arms"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Standing Bicep Curl (palackkal)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 272 },
-      { "set_number": 2, "reps": 10, "id": 273 },
-      { "set_number": 3, "reps": 10, "id": 274 }
-    ],
-    "comment": "Bicep isolation",
-    "targetMuscleGroup": ["arms"]
-  }
-],
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 64
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 65
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 66
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 67
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 68
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 69
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 70
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 71
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 72
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Széles karú fekvőtámasz",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 259
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 260
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 261
+        }
+      ],
+      "comment": "Mellizom kihívás",
+      "targetMuscleGroup": [
+        "chest"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Bulgár guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 262
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 263
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 264
+        }
+      ],
+      "comment": "Egyensúly és farizom",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Oldaltámasz (Side Plank)",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 265
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 266
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 267
+        }
+      ],
+      "comment": "Oldalsó törzsizmok",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Hegyes támasz (Pike Push-Up)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 268
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 269
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 270
+        }
+      ],
+      "comment": "Vállizom erősítés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Push Up",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 268
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 269
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 270
+        }
+      ],
+      "comment": "Tricep isolation",
+      "targetMuscleGroup": [
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Standing Bicep Curl (palackkal)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 269
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 270
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 271
+        }
+      ],
+      "comment": "Bicep isolation",
+      "targetMuscleGroup": [
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Standing Bicep Curl (palackkal)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 272
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 273
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 274
+        }
+      ],
+      "comment": "Bicep isolation",
+      "targetMuscleGroup": [
+        "arms"
+      ]
+    }
+  ],
   "muscle_intermediate_dumbbell": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 73 },
-      { "set_number": 2, "reps": 12, "id": 74 },
-      { "set_number": 3, "reps": 12, "id": 75 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 76 },
-      { "set_number": 2, "reps": 15, "id": 77 },
-      { "set_number": 3, "reps": 15, "id": 78 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 79 },
-      { "set_number": 2, "duration": 30, "id": 80 },
-      { "set_number": 3, "duration": 30, "id": 81 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Dumbbell vállnyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 271 },
-      { "set_number": 2, "reps": 12, "id": 272 },
-      { "set_number": 3, "reps": 12, "id": 273 }
-    ],
-    "comment": "Vállizom fejlesztés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Dumbbell húzás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 274 },
-      { "set_number": 2, "reps": 12, "id": 275 },
-      { "set_number": 3, "reps": 12, "id": 276 }
-    ],
-    "comment": "Hátizom aktiválás",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Dumbbell bicepsz curl",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 277 },
-      { "set_number": 2, "reps": 12, "id": 278 },
-      { "set_number": 3, "reps": 12, "id": 279 }
-    ],
-    "comment": "Bicepsz izoláció",
-    "targetMuscleGroup": ["biceps"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Dumbbell tricepsz nyújtás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 280 },
-      { "set_number": 2, "reps": 12, "id": 281 },
-      { "set_number": 3, "reps": 12, "id": 282 }
-    ],
-    "comment": "Tricepsz fókusz",
-    "targetMuscleGroup": ["triceps"]
-  }
-],
- "muscle_intermediate_kettlebell": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 82 },
-      { "set_number": 2, "reps": 12, "id": 83 },
-      { "set_number": 3, "reps": 12, "id": 84 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 85 },
-      { "set_number": 2, "reps": 15, "id": 86 },
-      { "set_number": 3, "reps": 15, "id": 87 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 88 },
-      { "set_number": 2, "duration": 30, "id": 89 },
-      { "set_number": 3, "duration": 30, "id": 90 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Kettlebell lökéssorozat",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 283 },
-      { "set_number": 2, "reps": 10, "id": 284 },
-      { "set_number": 3, "reps": 10, "id": 285 }
-    ],
-    "comment": "Váll és tricepsz",
-    "targetMuscleGroup": ["shoulders", "triceps"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Török felállás",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 286 },
-      { "set_number": 2, "reps": 8, "id": 287 },
-      { "set_number": 3, "reps": 8, "id": 288 }
-    ],
-    "comment": "Teljes törzs erősítés",
-    "targetMuscleGroup": ["core", "shoulders"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Egykezes kettlebell húzás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 289 },
-      { "set_number": 2, "reps": 12, "id": 290 },
-      { "set_number": 3, "reps": 12, "id": 291 }
-    ],
-    "comment": "Hátizom fókusz",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Kettlebell kupolás guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 292 },
-      { "set_number": 2, "reps": 12, "id": 293 },
-      { "set_number": 3, "reps": 12, "id": 294 }
-    ],
-    "comment": "Comb és far izmok",
-    "targetMuscleGroup": ["legs", "glutes"]
-  }
-],
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 73
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 74
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 75
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 76
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 77
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 78
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 79
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 80
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 81
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Dumbbell vállnyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 271
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 272
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 273
+        }
+      ],
+      "comment": "Vállizom fejlesztés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Dumbbell húzás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 274
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 275
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 276
+        }
+      ],
+      "comment": "Hátizom aktiválás",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Dumbbell bicepsz curl",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 277
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 278
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 279
+        }
+      ],
+      "comment": "Bicepsz izoláció",
+      "targetMuscleGroup": [
+        "biceps"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Dumbbell tricepsz nyújtás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 280
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 281
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 282
+        }
+      ],
+      "comment": "Tricepsz fókusz",
+      "targetMuscleGroup": [
+        "triceps"
+      ]
+    }
+  ],
+  "muscle_intermediate_kettlebell": [
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 82
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 83
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 84
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 85
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 86
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 87
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 88
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 89
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 90
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Kettlebell lökéssorozat",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 283
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 284
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 285
+        }
+      ],
+      "comment": "Váll és tricepsz",
+      "targetMuscleGroup": [
+        "shoulders",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Török felállás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 286
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 287
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 288
+        }
+      ],
+      "comment": "Teljes törzs erősítés",
+      "targetMuscleGroup": [
+        "core",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Egykezes kettlebell húzás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 289
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 290
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 291
+        }
+      ],
+      "comment": "Hátizom fókusz",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Kettlebell kupolás guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 292
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 293
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 294
+        }
+      ],
+      "comment": "Comb és far izmok",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    }
+  ],
   "muscle_intermediate_barbell": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 91 },
-      { "set_number": 2, "reps": 12, "id": 92 },
-      { "set_number": 3, "reps": 12, "id": 93 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps","shoulders"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 94 },
-      { "set_number": 2, "reps": 15, "id": 95 },
-      { "set_number": 3, "reps": 15, "id": 96 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 97 },
-      { "set_number": 2, "duration": 30, "id": 98 },
-      { "set_number": 3, "duration": 30, "id": 99 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Hátizomhúzás (Barbell Row)",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 295 },
-      { "set_number": 2, "reps": 12, "id": 296 },
-      { "set_number": 3, "reps": 12, "id": 297 }
-    ],
-    "comment": "Hátizom fejlesztés",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Vállból nyomás",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 298 },
-      { "set_number": 2, "reps": 10, "id": 299 },
-      { "set_number": 3, "reps": 10, "id": 300 }
-    ],
-    "comment": "Vállizom erősítés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Román felhúzás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 301 },
-      { "set_number": 2, "reps": 12, "id": 302 },
-      { "set_number": 3, "reps": 12, "id": 303 }
-    ],
-    "comment": "Farhajlító és hát",
-    "targetMuscleGroup": ["glutes", "back"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Zercher guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 304 },
-      { "set_number": 2, "reps": 10, "id": 305 },
-      { "set_number": 3, "reps": 10, "id": 306 }
-    ],
-    "comment": "Teljes test erő",
-    "targetMuscleGroup": ["legs", "core"]
-  }
-],
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 91
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 92
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 93
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 94
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 95
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 96
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 97
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 98
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 99
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Hátizomhúzás (Barbell Row)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 295
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 296
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 297
+        }
+      ],
+      "comment": "Hátizom fejlesztés",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Vállból nyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 298
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 299
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 300
+        }
+      ],
+      "comment": "Vállizom erősítés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Román felhúzás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 301
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 302
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 303
+        }
+      ],
+      "comment": "Farhajlító és hát",
+      "targetMuscleGroup": [
+        "glutes",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Zercher guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 304
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 305
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 306
+        }
+      ],
+      "comment": "Teljes test erő",
+      "targetMuscleGroup": [
+        "legs",
+        "core"
+      ]
+    }
+  ],
   "muscle_intermediate_resistance_band": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 100 },
-      { "set_number": 2, "reps": 12, "id": 101 },
-      { "set_number": 3, "reps": 12, "id": 102 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 103 },
-      { "set_number": 2, "reps": 15, "id": 104 },
-      { "set_number": 3, "reps": 15, "id": 105 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 106 },
-      { "set_number": 2, "duration": 30, "id": 107 },
-      { "set_number": 3, "duration": 30, "id": 108 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Ellenállási szalag mellhúzás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 307 },
-      { "set_number": 2, "reps": 12, "id": 308 },
-      { "set_number": 3, "reps": 12, "id": 309 }
-    ],
-    "comment": "Mellizom aktiválás",
-    "targetMuscleGroup": ["chest"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Triceps lenyomás szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 310 },
-      { "set_number": 2, "reps": 12, "id": 311 },
-      { "set_number": 3, "reps": 12, "id": 312 }
-    ],
-    "comment": "Triceps izoláció",
-    "targetMuscleGroup": ["triceps"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Oldalra lépés szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 313 },
-      { "set_number": 2, "reps": 15, "id": 314 },
-      { "set_number": 3, "reps": 15, "id": 315 }
-    ],
-    "comment": "Farizom fókusz",
-    "targetMuscleGroup": ["glutes"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Szalag húzás vállmagasságban",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 316 },
-      { "set_number": 2, "reps": 12, "id": 317 },
-      { "set_number": 3, "reps": 12, "id": 318 }
-    ],
-    "comment": "Hátizom erősítés",
-    "targetMuscleGroup": ["back"]
-  }
-],
- "muscle_intermediate_pullup_bar": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 109 },
-      { "set_number": 2, "reps": 12, "id": 110 },
-      { "set_number": 3, "reps": 12, "id": 111 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 112 },
-      { "set_number": 2, "reps": 15, "id": 113 },
-      { "set_number": 3, "reps": 15, "id": 114 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 115 },
-      { "set_number": 2, "duration": 30, "id": 116 },
-      { "set_number": 3, "duration": 30, "id": 117 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Húzódzkodás",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 319 },
-      { "set_number": 2, "reps": 8, "id": 320 },
-      { "set_number": 3, "reps": 8, "id": 321 }
-    ],
-    "comment": "Hát és bicepsz fejlesztés",
-    "targetMuscleGroup": ["back", "biceps"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Lábemelés függesztésben",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 322 },
-      { "set_number": 2, "reps": 12, "id": 323 },
-      { "set_number": 3, "reps": 12, "id": 324 }
-    ],
-    "comment": "Hasizom fókusz",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Ausztral húzódzkodás",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 325 },
-      { "set_number": 2, "reps": 10, "id": 326 },
-      { "set_number": 3, "reps": 10, "id": 327 }
-    ],
-    "comment": "Mell és hát kombináció",
-    "targetMuscleGroup": ["chest", "back"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Triceps dip",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 328 },
-      { "set_number": 2, "reps": 12, "id": 329 },
-      { "set_number": 3, "reps": 12, "id": 330 }
-    ],
-    "comment": "Tricepsz izoláció",
-    "targetMuscleGroup": ["triceps"]
-  }
-],
-"muscle_intermediate_yoga_mat": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 118 },
-      { "set_number": 2, "reps": 12, "id": 119 },
-      { "set_number": 3, "reps": 12, "id": 120 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 121 },
-      { "set_number": 2, "reps": 15, "id": 122 },
-      { "set_number": 3, "reps": 15, "id": 123 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 124 },
-      { "set_number": 2, "duration": 30, "id": 125 },
-      { "set_number": 3, "duration": 30, "id": 126 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Csigolyatornász fekvőtámasz",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 331 },
-      { "set_number": 2, "reps": 12, "id": 332 },
-      { "set_number": 3, "reps": 12, "id": 333 }
-    ],
-    "comment": "Mellizom és törzs",
-    "targetMuscleGroup": ["chest", "core"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Hegyes támasz (Pike Push-Up)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 334 },
-      { "set_number": 2, "reps": 10, "id": 335 },
-      { "set_number": 3, "reps": 10, "id": 336 }
-    ],
-    "comment": "Vállizom erősítés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Szuperman gyakorlat",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 337 },
-      { "set_number": 2, "duration": 30, "id": 338 },
-      { "set_number": 3, "duration": 30, "id": 339 }
-    ],
-    "comment": "Hátizom és törzs",
-    "targetMuscleGroup": ["back", "core"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Oldalra emelés (Glute Bridge)",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 340 },
-      { "set_number": 2, "reps": 15, "id": 341 },
-      { "set_number": 3, "reps": 15, "id": 342 }
-    ],
-    "comment": "Farizom aktiválás",
-    "targetMuscleGroup": ["glutes"]
-  }
-],
-"muscle_advanced_none": [
-  {
-    "exercise_number": 1,
-    "note": "One arm Push Up",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 127 },
-      { "set_number": 2, "reps": 8, "id": 128 },
-      { "set_number": 3, "reps": 8, "id": 129 },
-      { "set_number": 4, "reps": 8, "id": 130 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps", "shoulders"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 40, "id": 131 },
-      { "set_number": 2, "reps": 40, "id": 132 },
-      { "set_number": 3, "reps": 40, "id": 133 },
-      { "set_number": 4, "reps": 30, "id": 134 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 300, "id": 135 },
-      { "set_number": 2, "duration": 250, "id": 136 },
-      { "set_number": 3, "duration": 200, "id": 137 },
-      { "set_number": 4, "duration": 150, "id": 138 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Ijesztőmadár fekvőtámasz (Archer Push-Up)",
-    "sets": [
-      { "set_number": 1, "reps": 6, "id": 343 },
-      { "set_number": 2, "reps": 6, "id": 344 },
-      { "set_number": 3, "reps": 6, "id": 345 }
-    ],
-    "comment": "Mellizom kihívás",
-    "targetMuscleGroup": ["chest", "shoulders"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Gyémánt fekvőtámasz",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 346 },
-      { "set_number": 2, "reps": 10, "id": 347 },
-      { "set_number": 3, "reps": 10, "id": 348 }
-    ],
-    "comment": "Tricepsz izoláció",
-    "targetMuscleGroup": ["triceps"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Kézállás nyomás (Handstand Push-Up)",
-    "sets": [
-      { "set_number": 1, "reps": 5, "id": 349 },
-      { "set_number": 2, "reps": 5, "id": 350 },
-      { "set_number": 3, "reps": 5, "id": 351 }
-    ],
-    "comment": "Vállizom maximális terhelés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Pisztoly guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 352 },
-      { "set_number": 2, "reps": 8, "id": 353 },
-      { "set_number": 3, "reps": 8, "id": 354 }
-    ],
-    "comment": "Egyensúly és comberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 8,
-    "note": "Sárkányfarok (Dragon Flag)",
-    "sets": [
-      { "set_number": 1, "reps": 6, "id": 355 },
-      { "set_number": 2, "reps": 6, "id": 356 },
-      { "set_number": 3, "reps": 6, "id": 357 }
-    ],
-    "comment": "Mély törzsizmok",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 9,
-    "note": "Szuperman tartás",
-    "sets": [
-      { "set_number": 1, "duration": 45, "id": 358 },
-      { "set_number": 2, "duration": 45, "id": 359 },
-      { "set_number": 3, "duration": 45, "id": 360 }
-    ],
-    "comment": "Hátizom aktiválás",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 10,
-    "note": "Fordított hóangyal",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 361 },
-      { "set_number": 2, "reps": 15, "id": 362 },
-      { "set_number": 3, "reps": 15, "id": 363 }
-    ],
-    "comment": "Hátizom és váll komplex",
-    "targetMuscleGroup": ["back", "shoulders"]
-  }
-],
- "muscle_advanced_kettlebell": [
-  {
-    "exercise_number": 1,
-    "note": "Kettlebell Swing",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 151 },
-      { "set_number": 2, "reps": 12, "id": 152 },
-      { "set_number": 3, "reps": 12, "id": 153 },
-      { "set_number": 4, "reps": 12, "id": 154 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["triceps", "shoulders"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 155 },
-      { "set_number": 2, "reps": 15, "id": 156 },
-      { "set_number": 3, "reps": 15, "id": 157 },
-      { "set_number": 4, "reps": 15, "id": 158 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 159 },
-      { "set_number": 2, "duration": 30, "id": 160 },
-      { "set_number": 3, "duration": 30, "id": 161 },
-      { "set_number": 4, "duration": 30, "id": 162 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Kettlebell Clean and Press",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 364 },
-      { "set_number": 2, "reps": 8, "id": 365 },
-      { "set_number": 3, "reps": 8, "id": 366 }
-    ],
-    "comment": "Váll és triceps komplex",
-    "targetMuscleGroup": ["shoulders", "triceps"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Egykezes Kettlebell húzás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 367 },
-      { "set_number": 2, "reps": 12, "id": 368 },
-      { "set_number": 3, "reps": 12, "id": 369 }
-    ],
-    "comment": "Hátizom fókusz",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Kettlebell kupolás guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 370 },
-      { "set_number": 2, "reps": 10, "id": 371 },
-      { "set_number": 3, "reps": 10, "id": 372 }
-    ],
-    "comment": "Comb és far izmok",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Török felállás",
-    "sets": [
-      { "set_number": 1, "reps": 6, "id": 373 },
-      { "set_number": 2, "reps": 6, "id": 374 },
-      { "set_number": 3, "reps": 6, "id": 375 }
-    ],
-    "comment": "Teljes törzs erősítés",
-    "targetMuscleGroup": ["core", "shoulders"]
-  }
-],
- "muscle_advanced_barbell": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 163 },
-      { "set_number": 2, "reps": 12, "id": 164 },
-      { "set_number": 3, "reps": 12, "id": 165 },
-      { "set_number": 4, "reps": 12, "id": 166 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 167 },
-      { "set_number": 2, "reps": 15, "id": 168 },
-      { "set_number": 3, "reps": 15, "id": 169 },
-      { "set_number": 4, "reps": 15, "id": 170 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 171 },
-      { "set_number": 2, "duration": 30, "id": 172 },
-      { "set_number": 3, "duration": 30, "id": 173 },
-      { "set_number": 4, "duration": 30, "id": 174 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Felhúzás",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 376 },
-      { "set_number": 2, "reps": 8, "id": 377 },
-      { "set_number": 3, "reps": 8, "id": 378 }
-    ],
-    "comment": "Hát és farizom",
-    "targetMuscleGroup": ["back", "glutes"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Vállból nyomás",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 379 },
-      { "set_number": 2, "reps": 10, "id": 380 },
-      { "set_number": 3, "reps": 10, "id": 381 }
-    ],
-    "comment": "Vállizom maximális terhelés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Hátizomhúzás (Barbell Row)",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 382 },
-      { "set_number": 2, "reps": 12, "id": 383 },
-      { "set_number": 3, "reps": 12, "id": 384 }
-    ],
-    "comment": "Hátizom fejlesztés",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Barbell bicepsz curl",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 385 },
-      { "set_number": 2, "reps": 12, "id": 386 },
-      { "set_number": 3, "reps": 12, "id": 387 }
-    ],
-    "comment": "Bicepsz izoláció",
-    "targetMuscleGroup": ["biceps","arms"]
-  },{
-    "exercise_number": 8,
-    "note": "Barbell lunge (kitörés rúddal)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 388 },
-      { "set_number": 2, "reps": 10, "id": 389 },
-      { "set_number": 3, "reps": 10, "id": 390 }
-    ],
-    "comment": "Lábedzés, egyensúly és koordináció fejlesztése",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 9,
-    "note": "Barbell hip thrust",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 391 },
-      { "set_number": 2, "reps": 12, "id": 392 },
-      { "set_number": 3, "reps": 12, "id": 393 }
-    ],
-    "comment": "Glute aktiválás és erősítés",
-    "targetMuscleGroup": ["glutes", "hamstrings"]
-  },
-  {
-    "exercise_number": 10,
-    "note": "Good morning",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 394 },
-      { "set_number": 2, "reps": 10, "id": 395 },
-      { "set_number": 3, "reps": 10, "id": 396 }
-    ],
-    "comment": "Hátsó comb és alsó hát edzés",
-    "targetMuscleGroup": ["hamstrings", "lower back"]
-  },
-  {
-    "exercise_number": 11,
-    "note": "Barbell overhead squat",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 397 },
-      { "set_number": 2, "reps": 8, "id": 398 },
-      { "set_number": 3, "reps": 8, "id": 399 }
-    ],
-    "comment": "Teljes test koordináció és mobilitás",
-    "targetMuscleGroup": ["legs", "core", "shoulders"]
-  },
-  {
-    "exercise_number": 12,
-    "note": "Barbell shrug",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 400 },
-      { "set_number": 2, "reps": 15, "id": 401 },
-      { "set_number": 3, "reps": 15, "id": 402 }
-    ],
-    "comment": "Trapézizom erősítése",
-    "targetMuscleGroup": ["traps","shoulders"]
-  },
-  {
-    "exercise_number": 13,
-    "note": "Barbell pullover",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 403 },
-      { "set_number": 2, "reps": 12, "id": 404 },
-      { "set_number": 3, "reps": 12, "id": 405 }
-    ],
-    "comment": "Mellkas és hát kombinált edzése",
-    "targetMuscleGroup": ["chest", "lats"]
-  },
-  {
-    "exercise_number": 14,
-    "note": "Barbell close-grip bench press",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 406 },
-      { "set_number": 2, "reps": 10, "id": 407 },
-      { "set_number": 3, "reps": 10, "id": 408 }
-    ],
-    "comment": "Tricepsz kiemelt terhelés mellkas mellett",
-    "targetMuscleGroup": ["triceps", "chest","arms"]
-  }
-],
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 100
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 101
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 102
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 103
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 104
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 105
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 106
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 107
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 108
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Ellenállási szalag mellhúzás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 307
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 308
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 309
+        }
+      ],
+      "comment": "Mellizom aktiválás",
+      "targetMuscleGroup": [
+        "chest"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Triceps lenyomás szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 310
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 311
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 312
+        }
+      ],
+      "comment": "Triceps izoláció",
+      "targetMuscleGroup": [
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Oldalra lépés szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 313
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 314
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 315
+        }
+      ],
+      "comment": "Farizom fókusz",
+      "targetMuscleGroup": [
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Szalag húzás vállmagasságban",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 316
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 317
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 318
+        }
+      ],
+      "comment": "Hátizom erősítés",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    }
+  ],
+  "muscle_intermediate_pullup_bar": [
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 109
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 110
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 111
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 112
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 113
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 114
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 115
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 116
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 117
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Húzódzkodás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 319
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 320
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 321
+        }
+      ],
+      "comment": "Hát és bicepsz fejlesztés",
+      "targetMuscleGroup": [
+        "back",
+        "biceps"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Lábemelés függesztésben",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 322
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 323
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 324
+        }
+      ],
+      "comment": "Hasizom fókusz",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Ausztral húzódzkodás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 325
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 326
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 327
+        }
+      ],
+      "comment": "Mell és hát kombináció",
+      "targetMuscleGroup": [
+        "chest",
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Triceps dip",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 328
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 329
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 330
+        }
+      ],
+      "comment": "Tricepsz izoláció",
+      "targetMuscleGroup": [
+        "triceps"
+      ]
+    }
+  ],
+  "muscle_intermediate_yoga_mat": [
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 118
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 119
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 120
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 121
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 122
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 123
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 124
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 125
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 126
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Csigolyatornász fekvőtámasz",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 331
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 332
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 333
+        }
+      ],
+      "comment": "Mellizom és törzs",
+      "targetMuscleGroup": [
+        "chest",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Hegyes támasz (Pike Push-Up)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 334
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 335
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 336
+        }
+      ],
+      "comment": "Vállizom erősítés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Szuperman gyakorlat",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 337
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 338
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 339
+        }
+      ],
+      "comment": "Hátizom és törzs",
+      "targetMuscleGroup": [
+        "back",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Oldalra emelés (Glute Bridge)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 340
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 341
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 342
+        }
+      ],
+      "comment": "Farizom aktiválás",
+      "targetMuscleGroup": [
+        "glutes"
+      ]
+    }
+  ],
+  "muscle_advanced_none": [
+    {
+      "exercise_number": 1,
+      "note": "One arm Push Up",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 127
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 128
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 129
+        },
+        {
+          "set_number": 4,
+          "reps": 8,
+          "id": 130
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 40,
+          "id": 131
+        },
+        {
+          "set_number": 2,
+          "reps": 40,
+          "id": 132
+        },
+        {
+          "set_number": 3,
+          "reps": 40,
+          "id": 133
+        },
+        {
+          "set_number": 4,
+          "reps": 30,
+          "id": 134
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 300,
+          "id": 135
+        },
+        {
+          "set_number": 2,
+          "duration": 250,
+          "id": 136
+        },
+        {
+          "set_number": 3,
+          "duration": 200,
+          "id": 137
+        },
+        {
+          "set_number": 4,
+          "duration": 150,
+          "id": 138
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Ijesztőmadár fekvőtámasz (Archer Push-Up)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 6,
+          "id": 343
+        },
+        {
+          "set_number": 2,
+          "reps": 6,
+          "id": 344
+        },
+        {
+          "set_number": 3,
+          "reps": 6,
+          "id": 345
+        }
+      ],
+      "comment": "Mellizom kihívás",
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Gyémánt fekvőtámasz",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 346
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 347
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 348
+        }
+      ],
+      "comment": "Tricepsz izoláció",
+      "targetMuscleGroup": [
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Kézállás nyomás (Handstand Push-Up)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 5,
+          "id": 349
+        },
+        {
+          "set_number": 2,
+          "reps": 5,
+          "id": 350
+        },
+        {
+          "set_number": 3,
+          "reps": 5,
+          "id": 351
+        }
+      ],
+      "comment": "Vállizom maximális terhelés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Pisztoly guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 352
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 353
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 354
+        }
+      ],
+      "comment": "Egyensúly és comberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Sárkányfarok (Dragon Flag)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 6,
+          "id": 355
+        },
+        {
+          "set_number": 2,
+          "reps": 6,
+          "id": 356
+        },
+        {
+          "set_number": 3,
+          "reps": 6,
+          "id": 357
+        }
+      ],
+      "comment": "Mély törzsizmok",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 9,
+      "note": "Szuperman tartás",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 45,
+          "id": 358
+        },
+        {
+          "set_number": 2,
+          "duration": 45,
+          "id": 359
+        },
+        {
+          "set_number": 3,
+          "duration": 45,
+          "id": 360
+        }
+      ],
+      "comment": "Hátizom aktiválás",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 10,
+      "note": "Fordított hóangyal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 361
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 362
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 363
+        }
+      ],
+      "comment": "Hátizom és váll komplex",
+      "targetMuscleGroup": [
+        "back",
+        "shoulders"
+      ]
+    }
+  ],
+  "muscle_advanced_kettlebell": [
+    {
+      "exercise_number": 1,
+      "note": "Kettlebell Swing",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 151
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 152
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 153
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 154
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "triceps",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 155
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 156
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 157
+        },
+        {
+          "set_number": 4,
+          "reps": 15,
+          "id": 158
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 159
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 160
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 161
+        },
+        {
+          "set_number": 4,
+          "duration": 30,
+          "id": 162
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Kettlebell Clean and Press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 364
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 365
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 366
+        }
+      ],
+      "comment": "Váll és triceps komplex",
+      "targetMuscleGroup": [
+        "shoulders",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Egykezes Kettlebell húzás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 367
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 368
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 369
+        }
+      ],
+      "comment": "Hátizom fókusz",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Kettlebell kupolás guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 370
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 371
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 372
+        }
+      ],
+      "comment": "Comb és far izmok",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Török felállás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 6,
+          "id": 373
+        },
+        {
+          "set_number": 2,
+          "reps": 6,
+          "id": 374
+        },
+        {
+          "set_number": 3,
+          "reps": 6,
+          "id": 375
+        }
+      ],
+      "comment": "Teljes törzs erősítés",
+      "targetMuscleGroup": [
+        "core",
+        "shoulders"
+      ]
+    }
+  ],
+  "muscle_advanced_barbell": [
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 163
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 164
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 165
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 166
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 167
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 168
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 169
+        },
+        {
+          "set_number": 4,
+          "reps": 15,
+          "id": 170
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 171
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 172
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 173
+        },
+        {
+          "set_number": 4,
+          "duration": 30,
+          "id": 174
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Felhúzás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 376
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 377
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 378
+        }
+      ],
+      "comment": "Hát és farizom",
+      "targetMuscleGroup": [
+        "back",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Vállból nyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 379
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 380
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 381
+        }
+      ],
+      "comment": "Vállizom maximális terhelés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Hátizomhúzás (Barbell Row)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 382
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 383
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 384
+        }
+      ],
+      "comment": "Hátizom fejlesztés",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Barbell bicepsz curl",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 385
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 386
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 387
+        }
+      ],
+      "comment": "Bicepsz izoláció",
+      "targetMuscleGroup": [
+        "biceps",
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Barbell lunge (kitörés rúddal)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 388
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 389
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 390
+        }
+      ],
+      "comment": "Lábedzés, egyensúly és koordináció fejlesztése",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 9,
+      "note": "Barbell hip thrust",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 391
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 392
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 393
+        }
+      ],
+      "comment": "Glute aktiválás és erősítés",
+      "targetMuscleGroup": [
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    {
+      "exercise_number": 10,
+      "note": "Good morning",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 394
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 395
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 396
+        }
+      ],
+      "comment": "Hátsó comb és alsó hát edzés",
+      "targetMuscleGroup": [
+        "hamstrings",
+        "lower back"
+      ]
+    },
+    {
+      "exercise_number": 11,
+      "note": "Barbell overhead squat",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 397
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 398
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 399
+        }
+      ],
+      "comment": "Teljes test koordináció és mobilitás",
+      "targetMuscleGroup": [
+        "legs",
+        "core",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 12,
+      "note": "Barbell shrug",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 400
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 401
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 402
+        }
+      ],
+      "comment": "Trapézizom erősítése",
+      "targetMuscleGroup": [
+        "traps",
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 13,
+      "note": "Barbell pullover",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 403
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 404
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 405
+        }
+      ],
+      "comment": "Mellkas és hát kombinált edzése",
+      "targetMuscleGroup": [
+        "chest",
+        "lats"
+      ]
+    },
+    {
+      "exercise_number": 14,
+      "note": "Barbell close-grip bench press",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 406
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 407
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 408
+        }
+      ],
+      "comment": "Tricepsz kiemelt terhelés mellkas mellett",
+      "targetMuscleGroup": [
+        "triceps",
+        "chest",
+        "arms"
+      ]
+    }
+  ],
   "muscle_advanced_resistance_band": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 175 },
-      { "set_number": 2, "reps": 12, "id": 176 },
-      { "set_number": 3, "reps": 12, "id": 177 },
-      { "set_number": 4, "reps": 12, "id": 178 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps","arms"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 179 },
-      { "set_number": 2, "reps": 15, "id": 180 },
-      { "set_number": 3, "reps": 15, "id": 181 },
-      { "set_number": 4, "reps": 15, "id": 182 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 183 },
-      { "set_number": 2, "duration": 30, "id": 184 },
-      { "set_number": 3, "duration": 30, "id": 185 },
-      { "set_number": 4, "duration": 30, "id": 186 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Ellenállási szalag vállnyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 388 },
-      { "set_number": 2, "reps": 12, "id": 389 },
-      { "set_number": 3, "reps": 12, "id": 390 },
-      { "set_number": 4, "reps": 12, "id": 391 }
-    ],
-    "comment": "Vállizom erősítés",
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Hátizomhúzás szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 392 },
-      { "set_number": 2, "reps": 12, "id": 393 },
-      { "set_number": 3, "reps": 12, "id": 394 },
-      { "set_number": 4, "reps": 12, "id": 395 }
-    ],
-    "comment": "Hátizom fejlesztés",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Bicepsz curl szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 396 },
-      { "set_number": 2, "reps": 12, "id": 397 },
-      { "set_number": 3, "reps": 12, "id": 398 },
-      { "set_number": 4, "reps": 12, "id": 399 }
-    ],
-    "comment": "Bicepsz izoláció",
-    "targetMuscleGroup": ["biceps"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Oldalra lépés szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 400 },
-      { "set_number": 2, "reps": 15, "id": 401 },
-      { "set_number": 3, "reps": 15, "id": 402 },
-      { "set_number": 4, "reps": 15, "id": 403 }
-    ],
-    "comment": "Farizom fókusz",
-    "targetMuscleGroup": ["glutes"]
-  },{
-    "exercise_number": 8,
-    "note": "Szalagos tricepsz lenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 404 },
-      { "set_number": 2, "reps": 12, "id": 405 },
-      { "set_number": 3, "reps": 12, "id": 406 },
-      { "set_number": 4, "reps": 12, "id": 407 }
-    ],
-    "comment": "Tricepsz izoláció",
-    "targetMuscleGroup": ["triceps"]
-  },
-  {
-    "exercise_number": 9,
-    "note": "Szalagos face pull",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 408 },
-      { "set_number": 2, "reps": 12, "id": 409 },
-      { "set_number": 3, "reps": 12, "id": 410 },
-      { "set_number": 4, "reps": 12, "id": 411 }
-    ],
-    "comment": "Hátsó váll és lapocka stabilizálás",
-    "targetMuscleGroup": ["rear delts", "upper back"]
-  },
-  {
-    "exercise_number": 10,
-    "note": "Deadlift szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 412 },
-      { "set_number": 2, "reps": 10, "id": 413 },
-      { "set_number": 3, "reps": 10, "id": 414 },
-      { "set_number": 4, "reps": 10, "id": 415 }
-    ],
-    "comment": "Teljes hátsó lánc – hát, glute, combhajlító",
-    "targetMuscleGroup": ["back", "glutes", "hamstrings"]
-  },
-  {
-    "exercise_number": 11,
-    "note": "Russian twist szalaggal",
-    "sets": [
-      { "set_number": 1, "reps": 20, "id": 416 },
-      { "set_number": 2, "reps": 20, "id": 417 },
-      { "set_number": 3, "reps": 20, "id": 418 },
-      { "set_number": 4, "reps": 20, "id": 419 }
-    ],
-    "comment": "Ferdevonalas hasizom",
-    "targetMuscleGroup": ["obliques", "core"]
-  },
-  {
-    "exercise_number": 12,
-    "note": "Szalagos mellről tolás állva",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 420 },
-      { "set_number": 2, "reps": 12, "id": 421 },
-      { "set_number": 3, "reps": 12, "id": 422 },
-      { "set_number": 4, "reps": 12, "id": 423 }
-    ],
-    "comment": "Mell, váll és core kombinált erősítése",
-    "targetMuscleGroup": ["chest", "shoulders", "core"]
-  }
-  
-],
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 175
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 176
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 177
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 178
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps",
+        "arms"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 179
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 180
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 181
+        },
+        {
+          "set_number": 4,
+          "reps": 15,
+          "id": 182
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 183
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 184
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 185
+        },
+        {
+          "set_number": 4,
+          "duration": 30,
+          "id": 186
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Ellenállási szalag vállnyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 388
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 389
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 390
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 391
+        }
+      ],
+      "comment": "Vállizom erősítés",
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Hátizomhúzás szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 392
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 393
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 394
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 395
+        }
+      ],
+      "comment": "Hátizom fejlesztés",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Bicepsz curl szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 396
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 397
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 398
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 399
+        }
+      ],
+      "comment": "Bicepsz izoláció",
+      "targetMuscleGroup": [
+        "biceps"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Oldalra lépés szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 400
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 401
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 402
+        },
+        {
+          "set_number": 4,
+          "reps": 15,
+          "id": 403
+        }
+      ],
+      "comment": "Farizom fókusz",
+      "targetMuscleGroup": [
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 8,
+      "note": "Szalagos tricepsz lenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 404
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 405
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 406
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 407
+        }
+      ],
+      "comment": "Tricepsz izoláció",
+      "targetMuscleGroup": [
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 9,
+      "note": "Szalagos face pull",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 408
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 409
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 410
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 411
+        }
+      ],
+      "comment": "Hátsó váll és lapocka stabilizálás",
+      "targetMuscleGroup": [
+        "rear delts",
+        "upper back"
+      ]
+    },
+    {
+      "exercise_number": 10,
+      "note": "Deadlift szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 412
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 413
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 414
+        },
+        {
+          "set_number": 4,
+          "reps": 10,
+          "id": 415
+        }
+      ],
+      "comment": "Teljes hátsó lánc – hát, glute, combhajlító",
+      "targetMuscleGroup": [
+        "back",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    {
+      "exercise_number": 11,
+      "note": "Russian twist szalaggal",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 20,
+          "id": 416
+        },
+        {
+          "set_number": 2,
+          "reps": 20,
+          "id": 417
+        },
+        {
+          "set_number": 3,
+          "reps": 20,
+          "id": 418
+        },
+        {
+          "set_number": 4,
+          "reps": 20,
+          "id": 419
+        }
+      ],
+      "comment": "Ferdevonalas hasizom",
+      "targetMuscleGroup": [
+        "obliques",
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 12,
+      "note": "Szalagos mellről tolás állva",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 420
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 421
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 422
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 423
+        }
+      ],
+      "comment": "Mell, váll és core kombinált erősítése",
+      "targetMuscleGroup": [
+        "chest",
+        "shoulders",
+        "core"
+      ]
+    }
+  ],
   "muscle_advanced_pullup_bar": [
-  {
-    "exercise_number": 1,
-    "note": "Fekvenyomás",
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 187 },
-      { "set_number": 2, "reps": 12, "id": 188 },
-      { "set_number": 3, "reps": 12, "id": 189 },
-      { "set_number": 4, "reps": 12, "id": 190 }
-    ],
-    "comment": "Izomépítés",
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "exercise_number": 2,
-    "note": "Guggolás",
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 191 },
-      { "set_number": 2, "reps": 15, "id": 192 },
-      { "set_number": 3, "reps": 15, "id": 193 },
-      { "set_number": 4, "reps": 15, "id": 194 }
-    ],
-    "comment": "Láberő",
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "exercise_number": 3,
-    "note": "Plank",
-    "sets": [
-      { "set_number": 1, "duration": 30, "id": 195 },
-      { "set_number": 2, "duration": 30, "id": 196 },
-      { "set_number": 3, "duration": 30, "id": 197 },
-      { "set_number": 4, "duration": 30, "id": 198 }
-    ],
-    "comment": "Törzs stabilitás",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 4,
-    "note": "Széles fogású húzódzkodás",
-    "sets": [
-      { "set_number": 1, "reps": 8, "id": 404 },
-      { "set_number": 2, "reps": 8, "id": 405 },
-      { "set_number": 3, "reps": 8, "id": 406 },
-      { "set_number": 4, "reps": 8, "id": 407 }
-    ],
-    "comment": "Hátizom szélesség",
-    "targetMuscleGroup": ["back"]
-  },
-  {
-    "exercise_number": 5,
-    "note": "Szűk fogású húzódzkodás",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 408 },
-      { "set_number": 2, "reps": 10, "id": 409 },
-      { "set_number": 3, "reps": 10, "id": 410 },
-      { "set_number": 4, "reps": 10, "id": 411 }
-    ],
-    "comment": "Bicepsz és hát középső rész",
-    "targetMuscleGroup": ["back", "biceps"]
-  },
-  {
-    "exercise_number": 6,
-    "note": "Lógó ablaktörlő (Hanging Windshield Wipers)",
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 412 },
-      { "set_number": 2, "reps": 10, "id": 413 },
-      { "set_number": 3, "reps": 10, "id": 414 },
-      { "set_number": 4, "reps": 10, "id": 415 }
-    ],
-    "comment": "Oldalsó törzsizmok",
-    "targetMuscleGroup": ["core"]
-  },
-  {
-    "exercise_number": 7,
-    "note": "Ijesztőmadár húzódzkodás (Archer Pull-Up)",
-    "sets": [
-      { "set_number": 1, "reps": 6, "id": 416 },
-      { "set_number": 2, "reps": 6, "id": 417 },
-      { "set_number": 3, "reps": 6, "id": 418 },
-      { "set_number": 4, "reps": 6, "id": 419 }
-    ],
-    "comment": "Egyoldalú hátizom fejlesztés",
-    "targetMuscleGroup": ["back", "shoulders"]
-  }
-],
+    {
+      "exercise_number": 1,
+      "note": "Fekvenyomás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 187
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 188
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 189
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 190
+        }
+      ],
+      "comment": "Izomépítés",
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "exercise_number": 2,
+      "note": "Guggolás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 191
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 192
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 193
+        },
+        {
+          "set_number": 4,
+          "reps": 15,
+          "id": 194
+        }
+      ],
+      "comment": "Láberő",
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "exercise_number": 3,
+      "note": "Plank",
+      "sets": [
+        {
+          "set_number": 1,
+          "duration": 30,
+          "id": 195
+        },
+        {
+          "set_number": 2,
+          "duration": 30,
+          "id": 196
+        },
+        {
+          "set_number": 3,
+          "duration": 30,
+          "id": 197
+        },
+        {
+          "set_number": 4,
+          "duration": 30,
+          "id": 198
+        }
+      ],
+      "comment": "Törzs stabilitás",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 4,
+      "note": "Széles fogású húzódzkodás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 8,
+          "id": 404
+        },
+        {
+          "set_number": 2,
+          "reps": 8,
+          "id": 405
+        },
+        {
+          "set_number": 3,
+          "reps": 8,
+          "id": 406
+        },
+        {
+          "set_number": 4,
+          "reps": 8,
+          "id": 407
+        }
+      ],
+      "comment": "Hátizom szélesség",
+      "targetMuscleGroup": [
+        "back"
+      ]
+    },
+    {
+      "exercise_number": 5,
+      "note": "Szűk fogású húzódzkodás",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 408
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 409
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 410
+        },
+        {
+          "set_number": 4,
+          "reps": 10,
+          "id": 411
+        }
+      ],
+      "comment": "Bicepsz és hát középső rész",
+      "targetMuscleGroup": [
+        "back",
+        "biceps"
+      ]
+    },
+    {
+      "exercise_number": 6,
+      "note": "Lógó ablaktörlő (Hanging Windshield Wipers)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 412
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 413
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 414
+        },
+        {
+          "set_number": 4,
+          "reps": 10,
+          "id": 415
+        }
+      ],
+      "comment": "Oldalsó törzsizmok",
+      "targetMuscleGroup": [
+        "core"
+      ]
+    },
+    {
+      "exercise_number": 7,
+      "note": "Ijesztőmadár húzódzkodás (Archer Pull-Up)",
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 6,
+          "id": 416
+        },
+        {
+          "set_number": 2,
+          "reps": 6,
+          "id": 417
+        },
+        {
+          "set_number": 3,
+          "reps": 6,
+          "id": 418
+        },
+        {
+          "set_number": 4,
+          "reps": 6,
+          "id": 419
+        }
+      ],
+      "comment": "Egyoldalú hátizom fejlesztés",
+      "targetMuscleGroup": [
+        "back",
+        "shoulders"
+      ]
+    }
+  ],
   "muscle_advanced_yoga_mat": [
     {
       "exercise_number": 1,
@@ -9904,206 +12695,454 @@
       ]
     }
   ],
-  "muscle_advanced_dumbbell": [
-  {
-    "note": "Dumbbell Bench Press (Decline/Incline)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1047 },
-      { "set_number": 2, "reps": 12, "id": 1048 },
-      { "set_number": 3, "reps": 12, "id": 1049 },
-      { "set_number": 4, "reps": 12, "id": 1050 }
-    ],
-    "exercise_number": 1,
-    "targetMuscleGroup": ["chest"]
-  },
-  {
-    "note": "Arnold Press",
-    "reps": 15,
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 1051 },
-      { "set_number": 2, "reps": 15, "id": 1052 },
-      { "set_number": 3, "reps": 15, "id": 1053 },
-      { "set_number": 4, "reps": 15, "id": 1054 }
-    ],
-    "exercise_number": 2,
-    "targetMuscleGroup": ["shoulders", "chest"]
-  },
-  {
-    "note": "Dumbbell Skull Crusher (45°-os padon)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1055 },
-      { "set_number": 2, "reps": 12, "id": 1056 },
-      { "set_number": 3, "reps": 12, "id": 1057 }
-    ],
-    "exercise_number": 3,
-    "targetMuscleGroup": ["triceps"]
-  },
-  {
-    "note": "Dumbbell Row (Single-Arm, with Rotation)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1058 },
-      { "set_number": 2, "reps": 12, "id": 1059 },
-      { "set_number": 3, "reps": 12, "id": 1060 }
-    ],
-    "exercise_number": 4,
-    "targetMuscleGroup": ["back", "lower back"]
-  },
-  {
-    "note": "Bulgarian Split Squat (with Dumbbells)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1061 },
-      { "set_number": 2, "reps": 12, "id": 1062 },
-      { "set_number": 3, "reps": 12, "id": 1063 }
-    ],
-    "exercise_number": 5,
-    "targetMuscleGroup": ["legs", "glutes"]
-  },
-  {
-    "note": "Dumbbell Clean & Press",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1064 },
-      { "set_number": 2, "reps": 12, "id": 1065 },
-      { "set_number": 3, "reps": 12, "id": 1066 }
-    ],
-    "exercise_number": 6,
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "note": "Dumbbell Zottman Curl",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1067 },
-      { "set_number": 2, "reps": 12, "id": 1068 },
-      { "set_number": 3, "reps": 12, "id": 1069 }
-    ],
-    "exercise_number": 7,
-    "targetMuscleGroup": ["biceps", "forearms"]
-  },
-  {
-    "note": "Renegade Row (Push-up + Row with Dumbbells)",
-    "reps": 10,
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 1070 },
-      { "set_number": 2, "reps": 10, "id": 1071 },
-      { "set_number": 3, "reps": 10, "id": 1072 }
-    ],
-    "exercise_number": 8,
-    "targetMuscleGroup": ["back", "core", "triceps"]
-  },
-  {
-    "note": "Dumbbell Front Squat",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1073 },
-      { "set_number": 2, "reps": 12, "id": 1074 },
-      { "set_number": 3, "reps": 12, "id": 1075 }
-    ],
-    "exercise_number": 9,
-    "targetMuscleGroup": ["legs", "core"]
-  },
-  {
-    "note": "Dumbbell Lateral Raise with Hold (2 sec at top)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1076 },
-      { "set_number": 2, "reps": 12, "id": 1077 },
-      { "set_number": 3, "reps": 12, "id": 1078 }
-    ],
-    "exercise_number": 10,
-    "targetMuscleGroup": ["shoulders"]
-  },
-  {
-    "note": "Dumbbell Pullover (Fekve, mellkas és hát)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1079 },
-      { "set_number": 2, "reps": 12, "id": 1080 },
-      { "set_number": 3, "reps": 12, "id": 1081 }
-    ],
-    "exercise_number": 11,
-    "targetMuscleGroup": ["chest", "back"]
-  },
-  {
-    "note": "Dumbbell Reverse Lunge to Curl",
-    "reps": 10,
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 1082 },
-      { "set_number": 2, "reps": 10, "id": 1083 },
-      { "set_number": 3, "reps": 10, "id": 1084 }
-    ],
-    "exercise_number": 12,
-    "targetMuscleGroup": ["legs", "biceps", "core"]
-  },
-  {
-    "note": "Dumbbell Squeeze Press (fekve, kézisúlyzók összeérintve)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1085 },
-      { "set_number": 2, "reps": 12, "id": 1086 },
-      { "set_number": 3, "reps": 12, "id": 1087 }
-    ],
-    "exercise_number": 13,
-    "targetMuscleGroup": ["chest", "triceps"]
-  },
-  {
-    "note": "Dumbbell Rear Delt Fly (hajolva, hátsó váll)",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1088 },
-      { "set_number": 2, "reps": 12, "id": 1089 },
-      { "set_number": 3, "reps": 12, "id": 1090 }
-    ],
-    "exercise_number": 14,
-    "targetMuscleGroup": ["shoulders", "upper back"]
-  },
-  {
-    "note": "Dumbbell Goblet Squat with Pulse (alsó pozícióban rugózás)",
-    "reps": 10,
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 1091 },
-      { "set_number": 2, "reps": 10, "id": 1092 },
-      { "set_number": 3, "reps": 10, "id": 1093 }
-    ],
-    "exercise_number": 15,
-    "targetMuscleGroup": ["legs", "glutes", "core"]
-  },
-  {
-    "note": "Dumbbell Hammer Curl to Shoulder Press",
-    "reps": 10,
-    "sets": [
-      { "set_number": 1, "reps": 10, "id": 1094 },
-      { "set_number": 2, "reps": 10, "id": 1095 },
-      { "set_number": 3, "reps": 10, "id": 1096 }
-    ],
-    "exercise_number": 16,
-    "targetMuscleGroup": ["biceps", "shoulders"]
-  },
-  {
-    "note": "Dumbbell Deadlift to Shrug",
-    "reps": 12,
-    "sets": [
-      { "set_number": 1, "reps": 12, "id": 1097 },
-      { "set_number": 2, "reps": 12, "id": 1098 },
-      { "set_number": 3, "reps": 12, "id": 1099 }
-    ],
-    "exercise_number": 17,
-    "targetMuscleGroup": ["legs", "traps", "lower back"]
-  },
-  {
-    "note": "Dumbbell Side Bend (core stabilizálás)",
-    "reps": 15,
-    "sets": [
-      { "set_number": 1, "reps": 15, "id": 1100 },
-      { "set_number": 2, "reps": 15, "id": 1101 },
-      { "set_number": 3, "reps": 15, "id": 1102 }
-    ],
-    "exercise_number": 18,
-    "targetMuscleGroup": ["core", "obliques"]
-  }
-]
+  "muscle_advanced_dumbell": [
+    {
+      "note": "Dumbbell Bench Press (Decline/Incline)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1047
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1048
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1049
+        },
+        {
+          "set_number": 4,
+          "reps": 12,
+          "id": 1050
+        }
+      ],
+      "exercise_number": 1,
+      "targetMuscleGroup": [
+        "chest"
+      ]
+    },
+    {
+      "note": "Dumbbell Skull Crusher (45°-os padon)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1055
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1056
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1057
+        }
+      ],
+      "exercise_number": 3,
+      "targetMuscleGroup": [
+        "triceps"
+      ]
+    },
+    {
+      "note": "Dumbbell Row (Single-Arm, with Rotation)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1058
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1059
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1060
+        }
+      ],
+      "exercise_number": 4,
+      "targetMuscleGroup": [
+        "back",
+        "lower back"
+      ]
+    },
+    {
+      "note": "Bulgarian Split Squat (with Dumbbells)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1061
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1062
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1063
+        }
+      ],
+      "exercise_number": 5,
+      "targetMuscleGroup": [
+        "legs",
+        "glutes"
+      ]
+    },
+    {
+      "note": "Dumbbell Clean & Press",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1064
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1065
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1066
+        }
+      ],
+      "exercise_number": 6,
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "note": "Dumbbell Zottman Curl",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1067
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1068
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1069
+        }
+      ],
+      "exercise_number": 7,
+      "targetMuscleGroup": [
+        "biceps",
+        "forearms"
+      ]
+    },
+    {
+      "note": "Renegade Row (Push-up + Row with Dumbbells)",
+      "reps": 10,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 1070
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 1071
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 1072
+        }
+      ],
+      "exercise_number": 8,
+      "targetMuscleGroup": [
+        "back",
+        "core",
+        "triceps"
+      ]
+    },
+    {
+      "note": "Dumbbell Front Squat",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1073
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1074
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1075
+        }
+      ],
+      "exercise_number": 9,
+      "targetMuscleGroup": [
+        "legs",
+        "core"
+      ]
+    },
+    {
+      "note": "Dumbbell Lateral Raise with Hold (2 sec at top)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1076
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1077
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1078
+        }
+      ],
+      "exercise_number": 10,
+      "targetMuscleGroup": [
+        "shoulders"
+      ]
+    },
+    {
+      "note": "Dumbbell Pullover (Fekve, mellkas és hát)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1079
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1080
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1081
+        }
+      ],
+      "exercise_number": 11,
+      "targetMuscleGroup": [
+        "chest",
+        "back"
+      ]
+    },
+    {
+      "note": "Dumbbell Reverse Lunge to Curl",
+      "reps": 10,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 1082
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 1083
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 1084
+        }
+      ],
+      "exercise_number": 12,
+      "targetMuscleGroup": [
+        "legs",
+        "biceps",
+        "core"
+      ]
+    },
+    {
+      "note": "Dumbbell Squeeze Press (fekve, kézisúlyzók összeérintve)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1085
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1086
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1087
+        }
+      ],
+      "exercise_number": 13,
+      "targetMuscleGroup": [
+        "chest",
+        "triceps"
+      ]
+    },
+    {
+      "note": "Dumbbell Rear Delt Fly (hajolva, hátsó váll)",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1088
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1089
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1090
+        }
+      ],
+      "exercise_number": 14,
+      "targetMuscleGroup": [
+        "shoulders",
+        "upper back"
+      ]
+    },
+    {
+      "note": "Dumbbell Goblet Squat with Pulse (alsó pozícióban rugózás)",
+      "reps": 10,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 1091
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 1092
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 1093
+        }
+      ],
+      "exercise_number": 15,
+      "targetMuscleGroup": [
+        "legs",
+        "glutes",
+        "core"
+      ]
+    },
+    {
+      "note": "Dumbbell Hammer Curl to Shoulder Press",
+      "reps": 10,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 10,
+          "id": 1094
+        },
+        {
+          "set_number": 2,
+          "reps": 10,
+          "id": 1095
+        },
+        {
+          "set_number": 3,
+          "reps": 10,
+          "id": 1096
+        }
+      ],
+      "exercise_number": 16,
+      "targetMuscleGroup": [
+        "biceps",
+        "shoulders"
+      ]
+    },
+    {
+      "note": "Dumbbell Deadlift to Shrug",
+      "reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 12,
+          "id": 1097
+        },
+        {
+          "set_number": 2,
+          "reps": 12,
+          "id": 1098
+        },
+        {
+          "set_number": 3,
+          "reps": 12,
+          "id": 1099
+        }
+      ],
+      "exercise_number": 17,
+      "targetMuscleGroup": [
+        "legs",
+        "traps",
+        "lower back"
+      ]
+    },
+    {
+      "note": "Dumbbell Side Bend (core stabilizálás)",
+      "reps": 15,
+      "sets": [
+        {
+          "set_number": 1,
+          "reps": 15,
+          "id": 1100
+        },
+        {
+          "set_number": 2,
+          "reps": 15,
+          "id": 1101
+        },
+        {
+          "set_number": 3,
+          "reps": 15,
+          "id": 1102
+        }
+      ],
+      "exercise_number": 18,
+      "targetMuscleGroup": [
+        "core",
+        "obliques"
+      ]
+    }
+  ]
 }

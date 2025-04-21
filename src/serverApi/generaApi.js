@@ -1,10 +1,11 @@
 import express from 'express';
 import fs from 'fs';
+import cors from 'cors';
+
 const app = express();
 const PORT = 8080;
-
 app.use(express.json()); // 💡 Fontos a POST, PUT és PATCH kérésekhez
-
+app.use(cors());
 // 🔁 Betölti a teljes JSON-t memóriába
 const workouts = JSON.parse(fs.readFileSync('../utils/workout_presets_full.json', 'utf8'));
 
