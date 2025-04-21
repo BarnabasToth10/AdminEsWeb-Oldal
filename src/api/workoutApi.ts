@@ -1,9 +1,12 @@
 const BASE_URL = 'http://localhost:8080/workouts';
 
 export interface Exercise {
-  note: string;
+  exercise_number?: number; // Generálja a szerver, ha nincs megadva
+  name?: string;  // Kötelező, ha nincs note
+  note?: string;  // Kötelező, ha nincs name
   reps: number;
   sets: number;
+  duration?: number; // Ha a szerver ezt használja
 }
 
 export const addWorkouts = async (
@@ -46,7 +49,7 @@ export const deleteSingleWorkout = async (
 };
 
 export const createWorkout = async (type: string, exercises: any[]) => {
-  const response = await fetch(`/workouts/${type}`, {
+  const response = await fetch(`${BASE_URL}/create/${type}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
