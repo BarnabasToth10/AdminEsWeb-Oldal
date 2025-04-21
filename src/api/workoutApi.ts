@@ -49,7 +49,7 @@ export const deleteSingleWorkout = async (
 };
 
 export const createWorkout = async (type: string, exercises: any[]) => {
-  const response = await fetch(`${BASE_URL}/create/${type}`, {
+  const response = await fetch(`${BASE_URL}/${type}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

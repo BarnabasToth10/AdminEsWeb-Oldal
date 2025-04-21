@@ -25,101 +25,62 @@ app.get('/workouts/:type', (req, res) => {
   }
 });
 // ➕ POST - Új edzéstípus létrehozása, üres listával
-app.post('/workouts/create/:type', (req, res) => {
-    const { type } = req.params;
-  
-    if (workouts[type]) {
-      return res.status(409).json({ error: `Workout type '${type}' already exists` });
-    }
-  
-    workouts[type] = [];
-    fs.writeFileSync('../utils/workout_presets_full.json', JSON.stringify(workouts, null, 2));
-  
-    res.status(201).json({ message: `Workout type '${type}' created` });
-  });
-// ➕ POST - Új edzéstípus hozzáadása (tömb formájában)
 app.post('/workouts/:type', (req, res) => {
-    const { type } = req.params;
-    const newExercises = req.body;
-  
-    if (!Array.isArray(newExercises)) {
-      return res.status(400).json({ error: 'Body must be an array of exercises' });
-    }
-  
-    // Ha nincs még ilyen típus, inicializáljuk üres tömbbel
-    if (!workouts[type]) {
-      workouts[type] = [];
-    }
-  
-    const existingExercises = workouts[type];
-  
-    // Már létező exercise_number-ek (pl. [1, 2, 3])
-    const existingNumbers = new Set(
-      existingExercises.map(e => e.exercise_number).filter(n => typeof n === 'number')
-    );
-  
-    // Már létező exercise nevek vagy note-k (kisbetűsítve)
-    const existingNames = new Set(
-      existingExercises.map(e => (e.name || e.note || '').toLowerCase())
-    );
-      const validExercises = [];
+  const { type } = req.params;
+  const newExercises = req.body;
 
-    let nextNumber = existingExercises.reduce((max, ex) =>
-        typeof ex.exercise_number === 'number' && ex.exercise_number > max ? ex.exercise_number : max, 0);
-      
-      for (const ex of newExercises) {
-        const nameKey = (ex.name || ex.note || '').toLowerCase();
-      
-        if (existingNames.has(nameKey)) continue;
-        if (typeof ex.exercise_number === 'number' && existingNumbers.has(ex.exercise_number)) continue;
-      
-        if (typeof ex.exercise_number !== 'number') {
-          nextNumber++;
-          ex.exercise_number = nextNumber;
-        }
-      
-        validExercises.push(ex);
-        existingNames.add(nameKey);
-        existingNumbers.add(ex.exercise_number);
-      }  
-  
-    for (const ex of newExercises) {
-      const nameKey = (ex.name || ex.note || '').toLowerCase();
-  
-      // Duplikált név ellenőrzés
-      if (existingNames.has(nameKey)) {
-        continue; // Ugrik, ha ugyanilyen nevű már van
-      }
-  
-      // Duplikált exercise_number ellenőrzés (ha kézzel lett megadva)
-      if (typeof ex.exercise_number === 'number' && existingNumbers.has(ex.exercise_number)) {
-        continue; // Ugrik, ha ilyen szám már volt
-      }
-  
-      // Ha nincs száma, generálunk
-      if (typeof ex.exercise_number !== 'number') {
-        nextNumber++;
-        ex.exercise_number = nextNumber;
-      }
-  
-      // Hozzáadjuk az új gyakorlatot a jóváhagyott listához
-      validExercises.push(ex);
-      existingNames.add(nameKey);
-      existingNumbers.add(ex.exercise_number);
+  // Ha nincs ilyen típus, létrehozzuk
+  if (!workouts[type]) {
+    workouts[type] = [];
+
+    // Ha nincs body vagy üres, akkor csak létrehozzuk és visszatérünk
+    if (!newExercises || (Array.isArray(newExercises) && newExercises.length === 0)) {
+      fs.writeFileSync('../utils/workout_presets_full.json', JSON.stringify(workouts, null, 2));
+      return res.status(201).json({ message: `Workout type '${type}' created` });
     }
-  
-    // Ha nincs új, érvényes gyakorlat
-    if (validExercises.length === 0) {
-      return res.status(409).json({ error: 'All exercises already exist or had duplicate numbers' });
+  }
+
+  // Ha nem tömb, hibát dobunk
+  if (!Array.isArray(newExercises)) {
+    return res.status(400).json({ error: 'Body must be an array of exercises' });
+  }
+
+  const existingExercises = workouts[type];
+  const existingNumbers = new Set(
+    existingExercises.map(e => e.exercise_number).filter(n => typeof n === 'number')
+  );
+  const existingNames = new Set(
+    existingExercises.map(e => (e.name || e.note || '').toLowerCase())
+  );
+
+  const validExercises = [];
+  let nextNumber = existingExercises.reduce((max, ex) =>
+    typeof ex.exercise_number === 'number' && ex.exercise_number > max ? ex.exercise_number : max, 0);
+
+  for (const ex of newExercises) {
+    const nameKey = (ex.name || ex.note || '').toLowerCase();
+    if (existingNames.has(nameKey)) continue;
+    if (typeof ex.exercise_number === 'number' && existingNumbers.has(ex.exercise_number)) continue;
+
+    if (typeof ex.exercise_number !== 'number') {
+      nextNumber++;
+      ex.exercise_number = nextNumber;
     }
-  
-    // Mentés
-    workouts[type].push(...validExercises);
-    fs.writeFileSync('../utils/workout_presets_full.json', JSON.stringify(workouts, null, 2));
-  
-    res.status(201).json({ message: `${validExercises.length} exercise(s) added`, type });
-  });
-    
+
+    validExercises.push(ex);
+    existingNames.add(nameKey);
+    existingNumbers.add(ex.exercise_number);
+  }
+
+  if (validExercises.length === 0) {
+    return res.status(409).json({ error: 'All exercises already exist or had duplicate numbers' });
+  }
+
+  workouts[type].push(...validExercises);
+  fs.writeFileSync('../utils/workout_presets_full.json', JSON.stringify(workouts, null, 2));
+
+  res.status(201).json({ message: `${validExercises.length} exercise(s) added`, type });
+});    
 
 // 🗑️ DELETE - Teljes edzéstípus törlése
 app.delete('/workouts/:type', (req, res) => {

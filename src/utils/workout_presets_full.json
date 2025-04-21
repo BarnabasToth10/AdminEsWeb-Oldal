@@ -13144,5 +13144,27 @@
         "obliques"
       ]
     }
+  ],
+  "xd": [
+    {
+      "note": "asd",
+      "reps": 32,
+      "sets": 32
+    }
+  ],
+  "asd": [
+    {
+      "note": "32",
+      "reps": 32,
+      "sets": 32
+    }
+  ],
+  "xdasd": [
+    {
+      "note": "xdasd",
+      "reps": 32,
+      "sets": 32,
+      "exercise_number": 1
+    }
   ]
 }
