@@ -13159,11 +13159,52 @@
       "sets": 32
     }
   ],
-  "xdasd": [
+  "xdasd": [],
+  "xdwdasd": [
     {
-      "note": "xdasd",
-      "reps": 32,
+      "note": "xddxd",
+      "reps": 23,
       "sets": 32,
+      "exercise_number": 1
+    },
+    {
+      "note": "asdasdasd",
+      "reps": 32,
+      "sets": 2,
+      "exercise_number": 2
+    },
+    {
+      "note": "asdasd",
+      "reps": 32,
+      "sets": 2,
+      "exercise_number": 3
+    },
+    {
+      "note": "",
+      "reps": 0,
+      "sets": 0,
+      "exercise_number": 4
+    }
+  ],
+  "XDDDD": [
+    {
+      "note": "asdasd",
+      "reps": 32,
+      "sets": 23,
+      "exercise_number": 1
+    },
+    {
+      "note": "",
+      "reps": 0,
+      "sets": 0,
+      "exercise_number": 2
+    }
+  ],
+  "asdasd": [
+    {
+      "note": "asdasd",
+      "reps": 32,
+      "sets": 2,
       "exercise_number": 1
     }
   ]
