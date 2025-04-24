@@ -13204,16 +13204,43 @@
     {
       "note": "asdasd",
       "reps": 32,
-      "sets": 2,
-      "exercise_number": 1
+      "sets": 32
+    },
+    {
+      "note": "asdasd",
+      "reps": 32,
+      "sets": 2
+    },
+    {
+      "note": "213123",
+      "reps": 32,
+      "sets": 32
     }
   ],
   "XDD": [
     {
-      "note": "asd",
+      "note": "asdasd",
       "reps": 32,
-      "sets": 32,
+      "sets": 2
+    },
+    {
+      "note": "asdasd",
+      "reps": 32,
+      "sets": 32
+    }
+  ],
+  "levike": [
+    {
+      "note": "cigany",
+      "reps": 32,
+      "sets": 22,
       "exercise_number": 1
+    },
+    {
+      "note": "saddsaasd",
+      "reps": 32,
+      "sets": 2,
+      "exercise_number": 3
     }
   ]
 }

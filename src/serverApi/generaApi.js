@@ -155,12 +155,29 @@ app.put('/workouts/:type', (req, res) => {
     return res.status(404).json({ error: 'Workout type not found' });
   }
 
+  // Új exercise_number-ek generálása, ha hiányoznak
+  let nextNumber = 1;
+  const existingNumbers = new Set();
+
+  for (const ex of updatedExercises) {
+    if (typeof ex.exercise_number === 'number' && !existingNumbers.has(ex.exercise_number)) {
+      existingNumbers.add(ex.exercise_number);
+      nextNumber = Math.max(nextNumber, ex.exercise_number + 1);
+    } else {
+      while (existingNumbers.has(nextNumber)) {
+        nextNumber++;
+      }
+      ex.exercise_number = nextNumber;
+      existingNumbers.add(nextNumber);
+      nextNumber++;
+    }
+  }
+
   workouts[type] = updatedExercises;
   fs.writeFileSync('../utils/workout_presets_full.json', JSON.stringify(workouts, null, 2));
 
-  res.status(200).json({ message: 'Workout type updated', type });
+  res.status(200).json({ message: 'Workout type updated and exercise numbers assigned', type });
 });
-
 // 🚀 Szerver indítása
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
