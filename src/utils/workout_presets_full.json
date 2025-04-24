@@ -13207,5 +13207,13 @@
       "sets": 2,
       "exercise_number": 1
     }
+  ],
+  "XDD": [
+    {
+      "note": "asd",
+      "reps": 32,
+      "sets": 32,
+      "exercise_number": 1
+    }
   ]
 }

@@ -15,7 +15,7 @@ const WorkoutAdminPage: React.FC = () => {
     </header>
 
     {/* Itt jönnek a form panelek egyenként középre húzva */}
-    <div className="flex flex-col items-center space-y-12 bg-slate-100 py-10">
+    <div className="flex flex-col items-center space-y-12 bg-slate-100 py-10 ">
       {/* Új workout */}
       <section className="w-full max-w-[800px] bg-white border border-gray-300 shadow-md rounded-xl px-8 py-10 my-8">
         <h2 className="text-xl font-semibold text-indigo-600 text-center mb-4">➕ Új Workout</h2>
