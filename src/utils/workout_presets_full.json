@@ -13157,6 +13157,12 @@
       "note": "32",
       "reps": 32,
       "sets": 32
+    },
+    {
+      "note": "dsa",
+      "reps": 2,
+      "sets": 3,
+      "exercise_number": 1
     }
   ],
   "xdasd": [],
@@ -13241,6 +13247,94 @@
       "reps": 32,
       "sets": 2,
       "exercise_number": 3
+    }
+  ],
+  "dsaasd": [
+    {
+      "note": "dsa",
+      "reps": 2,
+      "sets": 5,
+      "exercise_number": 1
+    }
+  ],
+  "asddsaasd": [
+    {
+      "note": "dsaasd",
+      "reps": 2,
+      "sets": 34,
+      "exercise_number": 1
+    }
+  ],
+  "valamki": [
+    {
+      "note": "asd",
+      "reps": 21,
+      "sets": 12,
+      "exercise_number": 1
+    }
+  ],
+  "gfsd": [
+    {
+      "note": "asfwf",
+      "reps": 2,
+      "sets": 10,
+      "exercise_number": 1
+    }
+  ],
+  "teszt31": [
+    {
+      "note": "asdwa",
+      "reps": 21,
+      "sets": 453,
+      "exercise_number": 1
+    }
+  ],
+  "teszt3": [
+    {
+      "note": "dasdwa",
+      "reps": 21,
+      "sets": 345,
+      "exercise_number": 1
+    }
+  ],
+  "teszt60": [
+    {
+      "note": "dsasd",
+      "reps": 23,
+      "sets": 324,
+      "exercise_number": 1
+    }
+  ],
+  "teszt65": [
+    {
+      "note": "dsasda",
+      "reps": 21,
+      "sets": 4234,
+      "exercise_number": 1
+    }
+  ],
+  "teszt632": [
+    {
+      "note": "asddsadw",
+      "reps": 12,
+      "sets": 121,
+      "exercise_number": 1
+    }
+  ],
+  "tesf": [
+    {
+      "note": "asdawd",
+      "reps": 12,
+      "sets": 10,
+      "exercise_number": 1
+    }
+  ],
+  "teszt42": [
+    {
+      "note": "asdawd",
+      "reps": 21,
+      "sets": 12,
+      "exercise_number": 1
     }
   ]
 }

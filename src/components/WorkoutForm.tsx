@@ -13,6 +13,7 @@ const WorkoutForm: React.FC = () => {
   const [exercises, setExercises] = useState<Exercise[]>([
     { note: '', reps: 0, sets: 0 }
   ]);
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   const handleChange = <T extends keyof Exercise>(
     index: number,
@@ -35,9 +36,31 @@ const WorkoutForm: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await createWorkout(type, exercises);
-    alert('Sikeresen mentve!');
+  
+    // 1. Validációk
+    if (!type.trim()) {
+      setSuccessMessage("A workout típus kötelező!");
+      return;
+    }
+  
+    if (exercises.some(ex => ex.reps <= 0 || ex.sets <= 0)) {
+      setSuccessMessage("Az ismétlések és sorozatok számának nagyobbnak kell lennie 0-nál!");
+      return;
+    }
+  
+    // 2. API hívás
+    try {
+      await createWorkout(type, exercises);
+      setSuccessMessage('Sikeresen mentve!');
+      
+      // 3. Űrlap resetelése
+      setType('');
+      setExercises([{ note: '', reps: 0, sets: 0 }]);
+    } catch (error: any) {
+      setSuccessMessage(`Hiba: ${error.message}`);
+    }
   };
+
 
   return (
     <form onSubmit={handleSubmit} className="w-full">
@@ -109,6 +132,13 @@ const WorkoutForm: React.FC = () => {
             </div>
           ))}
         </div>
+
+        {/* Success/Error Message */}
+        {successMessage && (
+          <p className="text-emerald-600 text-center text-sm p-3 rounded-lg bg-emerald-50">
+            {successMessage}
+          </p>
+        )}
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-between">

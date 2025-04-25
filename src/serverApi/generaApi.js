@@ -80,6 +80,18 @@ app.post('/workouts/:type', (req, res) => {
   fs.writeFileSync('../utils/workout_presets_full.json', JSON.stringify(workouts, null, 2));
 
   res.status(201).json({ message: `${validExercises.length} exercise(s) added`, type });
+
+  try {
+    
+    res.status(201).json({ 
+      message: `${validExercises.length} gyakorlat hozzáadva`,
+      type,
+      exercises: validExercises
+    });
+  } catch (error) {
+    console.error("Szerver hiba:", error);
+    res.status(500).json({ error: "Belső szerverhiba" });
+  }
 });    
 
 // 🗑️ DELETE - Teljes edzéstípus törlése

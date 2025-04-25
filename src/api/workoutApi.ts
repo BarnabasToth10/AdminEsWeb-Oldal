@@ -49,12 +49,22 @@ export const deleteSingleWorkout = async (
 };
 
 export const createWorkout = async (type: string, exercises: any[]) => {
-  const response = await fetch(`${BASE_URL}/${type}`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(exercises)
-  });
-  return response.json();
+  try {
+    const response = await fetch(`${BASE_URL}/${type}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(exercises),
+    });
+
+    // Hibakezelés minden esetre
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(errorData.error || `HTTP hiba! Státusz: ${response.status}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error("API hiba:", error);
+    throw error; // Propagáljuk a hibát a komponens felé
+  }
 };
