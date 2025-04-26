@@ -2,28 +2,40 @@ import { useState } from 'react';
 import { deleteWorkoutType, deleteSingleWorkout } from '../api/workoutApi';
 import { TrashIcon, XCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
-const WorkoutDeleter: React.FC = () => {
-  const [type, setType] = useState<string>('');
-  const [exerciseId, setExerciseId] = useState<string>('');
+interface WorkoutDeleterProps {
+  onSuccess: (message: string) => void;
+}
+
+const WorkoutDeleter: React.FC<WorkoutDeleterProps> = ({ onSuccess }) => {
+  const [type, setType] = useState('');
+  const [exerciseId, setExerciseId] = useState('');
 
   const handleDeleteType = async () => {
     if (!type.trim()) {
-      alert('Workout típus megadása kötelező!');
+      onSuccess('❌ Workout típus megadása kötelező!');
       return;
     }
-    await deleteWorkoutType(type);
-    alert(`Workout típus törölve: ${type}`);
-    setType('');
+    try {
+      await deleteWorkoutType(type);
+      onSuccess(`✅ Workout típus törölve: ${type}`);
+      setType('');
+    } catch (err: any) {
+      onSuccess(`❌ Hiba: ${err.message ?? 'Ismeretlen hiba'}`);
+    }
   };
 
   const handleDeleteExercise = async () => {
     if (!type.trim() || !exerciseId.trim()) {
-      alert('Típus és Exercise ID megadása kötelező!');
+      onSuccess('❌ Típus és Exercise ID megadása kötelező!');
       return;
     }
-    await deleteSingleWorkout(type, exerciseId);
-    alert(`Gyakorlat törölve: ID ${exerciseId} a ${type} típusból`);
-    setExerciseId('');
+    try {
+      await deleteSingleWorkout(type, exerciseId);
+      onSuccess(`✅ Gyakorlat törölve: ID ${exerciseId} a ${type} típusból`);
+      setExerciseId('');
+    } catch (err: any) {
+      onSuccess(`❌ Hiba: ${err.message ?? 'Ismeretlen hiba'}`);
+    }
   };
 
   return (

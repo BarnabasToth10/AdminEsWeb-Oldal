@@ -2,17 +2,19 @@ import { useState } from 'react';
 import { updateWorkouts } from '../api/workoutApi';
 import { PlusCircleIcon, ArrowPathIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
+interface WorkoutEditorProps {
+  onSuccess: (message: string) => void;
+}
+
 interface Exercise {
   note: string;
   reps: number;
   sets: number;
 }
 
-const WorkoutEditor: React.FC = () => {
+const WorkoutEditor: React.FC<WorkoutEditorProps> = ({ onSuccess }) => {
   const [type, setType] = useState('');
-  const [exercises, setExercises] = useState<Exercise[]>([
-    { note: '', reps: 0, sets: 0 }
-  ]);
+  const [exercises, setExercises] = useState<Exercise[]>([{ note: '', reps: 0, sets: 0 }]);
 
   const handleChange = <T extends keyof Exercise>(
     index: number,
@@ -33,15 +35,36 @@ const WorkoutEditor: React.FC = () => {
     setExercises(updated);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    await updateWorkouts(type, exercises);
-    alert('Sikeresen frissítve!');
+    e.stopPropagation();
+
+    try {
+      const response = await fetch(`/workouts/${type}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(exercises),
+      });
+
+      if (!response.ok) {
+        const text = await response.text();
+        throw new Error(`Hiba: ${response.status} ${text}`);
+      }
+
+      await response.json();
+      onSuccess("✅ Sikeresen frissítve!");
+      setType('');
+      setExercises([{ note: '', reps: 0, sets: 0 }]);
+
+    } catch (err: any) {
+      onSuccess(`❌ Hiba: ${err.message ?? 'Ismeretlen hiba'}`);
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full">
+    <form onSubmit={handleSubmit} noValidate className="w-full">
       <div className="mx-auto max-w-md space-y-6">
+
         {/* Workout Type Input */}
         <div>
           <label className="block text-sm font-medium text-slate-700 mb-2">
@@ -49,7 +72,7 @@ const WorkoutEditor: React.FC = () => {
             <span className="text-blue-500 ml-1">*</span>
           </label>
           <input
-            className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+            className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none transition-all"
             placeholder="Pl: muscle_advanced_dumbell"
             value={type}
             onChange={(e) => setType(e.target.value)}
@@ -86,22 +109,30 @@ const WorkoutEditor: React.FC = () => {
                   <div>
                     <label className="block text-sm text-slate-600 mb-1">Ismétlés</label>
                     <input
-                      type="number"
+                      type="text"
+                      inputMode="numeric"
                       className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:ring-1 focus:ring-blue-500"
                       placeholder="Reps"
-                      value={ex.reps}
-                      onChange={(e) => handleChange(index, 'reps', Number(e.target.value))}
+                      value={ex.reps === 0 ? '' : ex.reps}
+                      onChange={(e) => {
+                        const value = parseInt(e.target.value, 10);
+                        handleChange(index, 'reps', isNaN(value) ? 0 : value);
+                      }}
                     />
                   </div>
 
                   <div>
                     <label className="block text-sm text-slate-600 mb-1">Sorozat</label>
                     <input
-                      type="number"
+                      type="text"
+                      inputMode="numeric"
                       className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:ring-1 focus:ring-blue-500"
                       placeholder="Sets"
-                      value={ex.sets}
-                      onChange={(e) => handleChange(index, 'sets', Number(e.target.value))}
+                      value={ex.sets === 0 ? '' : ex.sets}
+                      onChange={(e) => {
+                        const value = parseInt(e.target.value, 10);
+                        handleChange(index, 'sets', isNaN(value) ? 0 : value);
+                      }}
                     />
                   </div>
                 </div>

@@ -79,7 +79,7 @@ app.post('/workouts/:type', (req, res) => {
   workouts[type].push(...validExercises);
   fs.writeFileSync('../utils/workout_presets_full.json', JSON.stringify(workouts, null, 2));
 
-  res.status(201).json({ message: `${validExercises.length} exercise(s) added`, type });
+  res.status(201).json({ message: "Sikeres mentés", type, exercises: validExercises });
 
   try {
     

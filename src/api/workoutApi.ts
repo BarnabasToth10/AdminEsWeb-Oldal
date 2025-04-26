@@ -48,23 +48,32 @@ export const deleteSingleWorkout = async (
   });
 };
 
-export const createWorkout = async (type: string, exercises: any[]) => {
-  try {
-    const response = await fetch(`${BASE_URL}/${type}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(exercises),
-    });
+export const createWorkout = async (type: string, exercises: Exercise[]) => {
+  const transformedExercises = exercises.map((ex, index) => ({
+    exercise_number: ex.exercise_number || 0,
+    note: ex.note || `Gyakorlat`,
+    reps: ex.reps,
+    sets: ex.sets,
+  }));
 
-    // Hibakezelés minden esetre
-    if (!response.ok) {
-      const errorData = await response.json();
-      throw new Error(errorData.error || `HTTP hiba! Státusz: ${response.status}`);
-    }
+  const response = await fetch(`http://localhost:8080/workouts/${type}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(transformedExercises),
+  });
 
-    return await response.json();
-  } catch (error) {
-    console.error("API hiba:", error);
-    throw error; // Propagáljuk a hibát a komponens felé
+  if (!response.ok) {
+    const errorText = await response.text(); // így mindig elkapjuk a hibát szövegként is
+    throw new Error(`API hiba: ${response.status} ${errorText}`);
+  }
+
+  const contentType = response.headers.get("Content-Type");
+  if (contentType && contentType.includes("application/json")) {
+    const data = await response.json();
+    return data;
+  } else {
+    return { message: "Mentés sikeres, de nincs válasz adat." };
   }
 };
